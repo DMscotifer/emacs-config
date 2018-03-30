@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/" "~/Documents/code_clan_work/g5_classnotes/")

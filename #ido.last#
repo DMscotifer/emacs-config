@@ -1,0 +1,109 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/erebus/Programming/" . "Bash/")
+ ("/home/erebus/Documents/Programming/" . "Python/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/characters/" . "GURPS/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/" . "characters/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/" . "Fantasy Grounds/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/" . "Application Data/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/" . "omnissiah/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/" . "users/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/" . "drive_c/")
+ ("/home/erebus/.PlayOnLinux/wineprefix/" . "FantasyGrounds/")
+ ("/home/erebus/.PlayOnLinux/" . "wineprefix/")
+ ("/home/erebus/Notebooks/" . "Mythraic Age/")
+ ("/home/erebus/Documents/" . "Programming/")
+ ("/home/erebus/" . "Programming/")
+ ("/home/" . "erebus/")
+ ("/" . "home/")
+ ("/home/erebus/.emacs.d/" . "python-mode.el-6.2.3/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/erebus/Programming/Bash/"
+ "/home/erebus/Programming/"
+ "/home/erebus/"
+ "/home/erebus/Programming/Python/"
+ "/home/erebus/Documents/Programming/Python/"
+ "/home/erebus/Documents/FG/"
+ "/home/erebus/Documents/"
+ "/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/characters/"
+ "/home/erebus/Notebooks/Mythraic Age/"
+ "/home/erebus/Documents/Programming/"
+ "/home/erebus/.emacs.d/python-mode.el-6.2.3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "array-test"
+ "test7"
+ "vpnconfig.sh"
+ "test6"
+ "dialog-test~"
+ "array_to_list"
+ "test4"
+ "choose-country"
+ "test5"
+ "test2"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/erebus/Programming/Bash/" (23065 20841 496334 943000) "vpn1" "test2~" "test7" "test5" "testtail" "test3~" "sampledialog" "choose-country" "../" "test4~" "produce-vpn-list" "dialog-test" "test.sh~" ".#test7" "test5~" "vpnlist-output" "test6" "test4" "vpnlist" "test3" "array_to_list~" "dialog-vpn.sh" "array_to_list" "#sampledialog#" "array-test" "choose-country~" "test.sh" "VPN List.ods" "#vpnlist#" "test7~" "vpnconfig.sh" "chosen_vpn" "./" "test6~" "test2" "vpn1~" "array-test~")
+
+ ("/home/erebus/" (23065 18944 696311 449000) "Games/" ".Skype/" ".ecryptfs" ".nano/" "Music/" ".gimp-2.8/" "Downloads/" "shortcuts/" ".aspell.en.prepl" ".extend.bashrc" ".gcs.pref" "Programming/" ".newsrc.eld" ".wget-hsts" ".mozilla/" ".python_history" ".thunderbird/" ".macromedia/" ".easystroke/" ".xmonad/" ".rnd" ".hplip/" "../" ".mplayer/" ".profile" ".steam/" ".dir_colors" ".Xclients" ".shutter/" ".ssh/" ".bashrc~" ".esd_auth" ".cabal/" "Calibre Library/" "Library/" ".list.tasks" ".xprofile" "Calibre/" ".pki/" ".bashrc.save" ".mono/" ".godot/" ".aspell.en.pws" "Documents/" ".haskell-dmenu~" ".dbus/" ".screenlayout/" ".Xresources" ".fltk/" ".icons/" ".adobe/" "Podcasts/" ".npm/" ".podget/" ".emacs" ".bashrc" "translog.20170815210957.log" ".zenmap/" ".lesshst" ".bashrc.save.1" ".viminfo" "*message*-20171111-021347" ".gnome2_private/" ".bs1dc/" ".PlayOnLinux/" "dash-to-dock/" ".xmonad.orig/" ".recently-used" ".aqbanking/" "Public/" "Pictures/" ".gnome2/" ".xsession-errors.old" "Desktop/" "Android/" ".atom/" ".steampath" "VMs/" ".newsrc" "Stronghold/" ".dmrc" ".ICEauthority" "Notebooks/" ".xinitrc" ".gconf/" ".gist" ".oracle_jre_usage/" ".wine/" ".gksu.lock" ".tkpacman" ".swp" ".gnome/" ".bash_logout" "snap/" ".sudo_as_admin_successful" ".xscreensaver" ".bash_profile" ".gnupg/" "Steam/" ".kodi/" ".gtkrc-2.0" ".apport-ignore.xml" ".xsession" ".nmcli-history" "builds/" ".capy/" "GOG Games/" ".Xauthority" ".bashrc.save.2" ".local/" ".uml/" ".emacs.d/" ".thumbnails/" "sed" ".gnucash/" ".themes/" "./" ".cert/" ".bash_history" ".config/" "Unknown/" "Install/" "Templates/" "RPG Images/" ".cellwriter/" "Videos/" ".conky/" ".newsrc-dribble" ".cache/" ".emacs~" ".festival_history" ".ipython/" ".steampid" ".pulse-cookie" ".java/")
+
+ ("/home/erebus/Programming/" (23064 46680 442165 268000) "produce-vpn-list~" "../" "calibre.sh" "dialog-vpn.sh~" "sampledialog~" "Bash/" "vpnlist~" "Python/" "dialog-test~" "./" "vpnconfig.sh~")
+
+ ("/home/erebus/Documents/" (23056 22930 416161 625000) "Keepass/" "Mythas" "../" "Temp Orientation Guide.pdf" "fg-gcs-export.sh~" "quotes" "#fg-gcs-export-script.sh#~" "mythas_map.txt~" "Banking/" "wifial#" "#mythas_map.txt#" "nohup.out" "Expenses.ods" "gurps-fg-character-template.xml" "characters/" "invoice_d4b6aabd_eb11_4d68_9ed1_8eb11df6f4ac_1.pdf" "mythas_map.txt" "invoice_d4b6aabd_eb11_4d68_9ed1_8eb11df6f4ac_2.pdf" "gcs-4.9.0-linux/" "testfile.xml~" "Workouts/" "Computing/" "FG/" "#pythonTest.py#" "./" "mwf_config" "Install/" "win8.1prokey" "CV/")
+
+ ("/home/erebus/.emacs.d/python-mode.el-6.2.3/" (23020 44578 472677 776000) "PKG-INFO" "python-mode.el" "../" "INSTALL-INFO-FILES" "test/" "NEWS" "LICENSE" "README_DEVEL.org" "byte-compile-directory.sh" "setup.py" "INSTALL" "./" "doc/" "completion/" "#python-mode.el#")
+
+ ("/home/erebus/Notebooks/Mythraic Age/" (23020 45169 172677 423000) "Bestiary/" "Geography.txt" "Bestiary.txt" "notebook.zim" "Armoury.txt" "../" "Rumous.txt" "History.txt" "Geography/" "Dramatis_Personae.txt" "Dramatis_Personae/" "Religion/" "Politics/" "History/" "Religion.txt" "./" "Session_Summary/" "Session_Summary.txt" "Politics.txt" "Rumous/")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/characters/" (23020 44307 472677 938000) "GURPS/" "../" "GURPS.session.1508108400.xml" "GURPS.xml" "./")
+
+ ("/home/erebus/Documents/FG/" (23020 45146 512677 437000) "extract-name.sh~" "../" "dai.html" "rudolf.html" "fg-script-notes" "extract-name.xml" "extract-name.xml.save" "gca-fg-export.ods" "testfile.html" "testfile.xml" "test.html" "fg-gcs-export.sh" "testfile.html~" "fg-gcs-export.xml" "extract-name.py" "extract-name.sh" "output" "test.png" "nano.save" "testing" "./" "extract-name.xml~" "rudolf.png" "testfile" "dai.png")
+
+ ("/home/erebus/Programming/Python/" (23020 45246 232677 377000) "__pycache__/" "../" "pythontest.py" "#pythontest.py#" "hello_world.py~" "hello_world.py" "Learn_Python" "./")
+
+ ("/home/erebus/Documents/Programming/Python/" (23015 26954 371158 313000) "#hello_world.py#" "hello_world.py" "pythontest.py" "#pythontest.py#" "hello_world.py~" "../" "__pycache__/" "./" "Learn_Python")
+
+ ("/home/erebus/Documents/Programming/" (23015 22567 961120 20000) "calibre.sh" "../" "#test.rb#" "./" "test.rb" "Python/")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/" (23012 47810 230280 919000) ".update-timestamp" "userdef.reg" "system.reg" "user.reg" "../" "drive_c/" "dosdevices/" "playonlinux.cfg" "./" "playonlinux.log")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/" (23012 42064 570209 752000) "GlobalRegistry.lua" "rulesets/" "console.log" "GCAtoFG2/" "characters/" "portraits/" "extensions/" "update.log" "../" "docs/" "GCA_export_for_Fantasy_Grounds/" "covers/" "./" "vault/" "utilities/" "campaigns/" "cache/" "tokens/" "install.log" "modules/")
+
+ ("/home/erebus/Downloads/" (23012 40908 360195 430000) "characters/" "../" "calibre.pdf" "./")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/Fantasy Grounds/characters/GURPS/" (23006 14514 399872 59000) "hotkeys_local.xml" "../" "modulestate.xml" "./")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/Application Data/" (23006 14511 349872 32000) "Fantasy Grounds/" "../" "./")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/omnissiah/" (23006 14520 539872 113000) "../" "Temp/" "Application Data/" "./")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/users/" (23006 14511 349872 32000) "../" "./" "omnissiah/" "erebus/" "Public/")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/FantasyGrounds/drive_c/" (23006 14520 539872 113000) "users/" "windows/" "../" "Program Files (x86)/" "./" "Program Files/")
+
+ ("/home/erebus/.PlayOnLinux/wineprefix/" (23006 14693 989873 627000) "Disciples_2/" "Abe_s_Odyssey/" "Fallout_Tactics/" "Eador_Genesis/" "Arcanum/" "Disciples_2_Rise_of_the_Elves/" "DivineDivinity/" "Europa_Universalis_Rome/" "Alpha_Centauri/" "HOMM3/" "Steam/" "../" "default/" "Nosferatu/" "./" "Fallout_2/" "FantasyGrounds/" "Disciples/" "Stronghold/")
+
+ ("/home/erebus/.PlayOnLinux/" (23012 40567 780191 212000) ".wine/" "ressources/" "icones/" "fonts/" "wine/" "extensions.cfg" "../" "configurations/" "playonlinux.cfg" "shortcuts/" "plugins/" "backup/" "./" "gpg/" "wineprefix/" "logs/" "tmp/" "install")
+
+ ("/home/erebus/Notebooks/Mythraic Age/Dramatis_Personae/" (23006 17036 149894 73000) "The_Serpent.txt" "Arch_Bishop_Tarquinnus_Almuut.txt" "The_Queen.txt" "Mythridates.txt" "../" "Trocero_of_Savo.txt" "./" "Antoninus.txt" "Lunarion,_the_Moon_King.txt")
+
+ ("/home/erebus/Notebooks/" (23006 17036 139894 73000) "../" "Mythraic Age/" "./")
+
+ ("/home/" (23006 7343 39301 243000) "lost+found/" "../" "./" "erebus/")
+
+ ("/home/erebus/Documents/GURPS Character Assistant 4/" (23006 16955 279893 367000) "characters/" "../" "./" "data sets/" "sheets/" "data files/")
+
+ ("/home/erebus/.emacs.d/" (23002 20831 943575 910000) "python-settings.el" "window-settings.el" "fill-column-indicator-settings.el~" "ui-settings.el" "auto-save-list/" "dark-mint-theme.el" "color-theme-settings.el" "./" "fill-column-indicator-settings.el" "ido-settings.el" "retro-green-theme.el" "../" "Pymacs-0.25/" "#retro-green-theme.el#" "elpa/" "auto-complete-settings.el" "python-mode.el-6.2.3/" "text-settings.el" "cursor-settings.el" "ac-comphist.dat")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
