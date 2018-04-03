@@ -2,19 +2,19 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Mar 30 11:30:08 2018
+;; Created Tue Apr  3 15:03:52 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23230 4528 427288 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "WhiteSmoke") (background-color . "black") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "orchid") (environment) (scroll-bar-background . "grey75") (scroll-bar-foreground . "WhiteSmoke") (mouse-color . "OrangeRed") (border-color . "gold") (undecorated . t) (frameset--id . "C568-1BF0-CCB9-8EE0") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 82) (width . 81) (left . 0) (top . 22)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 569) (pixel-height . 1134) (total-width . 81) (total-height . 81) (normal-height . 1.0) (normal-width . 1.0) (buffer "notes.org" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23235 35272 167041 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "WhiteSmoke") (background-color . "black") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "orchid") (environment) (scroll-bar-background . "grey75") (scroll-bar-foreground . "WhiteSmoke") (mouse-color . "OrangeRed") (border-color . "gold") (undecorated . t) (frameset--id . "F41A-8BB1-3F2D-8A94") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 49) (width . 90) (left . 1280) (top . 480)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 3) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 112) (min-pixel-width . 70) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 28) (min-pixel-width-safe . 14)) vc (pixel-width . 632) (pixel-height . 672) (total-width . 90) (total-height . 48) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 632) (pixel-height . 546) (total-width . 90) (total-height . 39) (normal-height . 0.8191489361702128) (normal-width . 1.0) (buffer "*Fancy Diary Entries*" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 62) (start . 1))) (leaf (last . t) (pixel-width . 632) (pixel-height . 126) (total-width . 90) (total-height . 9) (normal-height . 0.18085106382978722) (normal-width . 1.0) (buffer "*Calendar*" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 419) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("helm-projecti" "robe" "grizzl" "projectile" "smartparen" "smartpar" "smart" "ag" "linum"))
+(setq search-ring '("diary-file" "helm-projecti" "robe" "grizzl" "projectile" "smartparen" "smartpar" "smart" "ag" "linum"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/erebus/.emacs.d/default.el" "/Users/erebus/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/.gitignore_global" "/Users/erebus/Documents/code_clan_work/wk_01/notes.org" "/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/git_and_github.md" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs" "/Users/erebus/Documents/New_Books/completeelectronicsselfteachingguidewithprojects.epub" "/Users/erebus/Desktop/New_Books" "/Users/erebus/Documents/.xmonad/xmonad.hs" "/Users/erebus/.emacs" "/etc/netctl/wlp3s0-TechpriestAP" "/home/erebus/.emacs" "/home/erebus/Programming/Python/new_python_test.py" "/home/erebus/.bash_history" "/home/erebus/Programming/Bash/settings.json" "/home/erebus/Programming/Bash/new_commands" "/home/erebus/Programming/Bash/borg-script" "/home/erebus/Programming/Bash/raspberry-build-script.sh" "/home/erebus/.emacs.d/"))
+(setq file-name-history '("/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/bank_account_specs.rb" "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/bank_account.rb" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs.d/.gitignore" "/Users/erebus/.emacs.d/README.rst" "/Users/erebus/.emacs.d/default.el" "/Users/erebus/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/.gitignore_global" "/Users/erebus/Documents/code_clan_work/wk_01/notes.org" "/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/git_and_github.md" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs" "/Users/erebus/Documents/New_Books/completeelectronicsselfteachingguidewithprojects.epub" "/Users/erebus/Desktop/New_Books" "/Users/erebus/Documents/.xmonad/xmonad.hs" "/Users/erebus/.emacs" "/etc/netctl/wlp3s0-TechpriestAP" "/home/erebus/.emacs" "/home/erebus/Programming/Python/new_python_test.py" "/home/erebus/.bash_history" "/home/erebus/Programming/Bash/settings.json" "/home/erebus/Programming/Bash/new_commands" "/home/erebus/Programming/Bash/borg-script" "/home/erebus/Programming/Bash/raspberry-build-script.sh" "/home/erebus/.emacs.d/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
@@ -22,12 +22,12 @@
   "notes.org"
   'org-mode
   '(persistent-scratch-autosave-mode smartparens-mode projectile-mode)
-  1
-  '(nil nil)
+  288
+  '(572 nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
-  '((mark-ring nil)))
+  '((mark-ring (572 572 493 288 228 1 222 228 605))))
 
 (desktop-create-buffer 208
   "/tmp/notes"
@@ -42,14 +42,14 @@
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/Users/erebus/.emacs"
-  ".emacs"
-  'emacs-lisp-mode
-  '(persistent-scratch-autosave-mode auto-complete-mode smartparens-mode projectile-mode)
-  4354
-  '(1681 nil)
+  "/Users/erebus/.emacs.d/diary"
+  "diary"
+  'diary-mode
+  '(persistent-scratch-autosave-mode smartparens-mode projectile-mode)
+  1
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (8684 2415))))
+  '((mark-ring nil)))
 
