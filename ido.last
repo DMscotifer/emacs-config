@@ -36,11 +36,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/erebus/"
+ "/Users/erebus/.emacs.d/"
+ "/Users/erebus/Documents/code_clan_work/"
  "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/"
  "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/"
- "/Users/erebus/Documents/code_clan_work/"
- "/Users/erebus/.emacs.d/"
- "/Users/erebus/"
  "/Users/erebus/Documents/code_clan_work/wk_01/"
  "/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/"
  "/Users/erebus/Documents/New_Books/"
@@ -70,23 +70,29 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".emacs"
+ "notes.org"
  "bank_account_specs.rb"
  "bank_account.rb"
  "improvements.txt"
  ".gitignore"
  "README.rst"
  "default.el"
- ".emacs"
- "notes.org"
  ".gitignore_global"
  "git_and_github.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/erebus/" (23236 37234 286085 346000) ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" "Documents/" ".npm/" "My Games/" ".Trash/" ".emacs~" ".zsh-update" "Applications/" ".emacs" "Movies/" ".ssh/" "#*mail*#3395LNh#" "Public/" ".bash_sessions/" "mac" ".gitignore_global" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" ".#.emacs" "../" "./")
+ ("/Users/erebus/" (23238 9429 225169 356000) ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" "Documents/" ".npm/" "My Games/" ".Trash/" ".emacs~" ".zsh-update" "Applications/" ".emacs" "Movies/" ".ssh/" "#*mail*#3395LNh#" "Public/" ".bash_sessions/" "mac" ".gitignore_global" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
 
- ("/Users/erebus/.emacs.d/" (23235 33195 910223 296000) "auto-complete.el" "#diary#" "python-settings.el" "diary~" "default.el" ".git/" "%backup%~" "README.rst" "#ido.last#" "#retro-green-theme.el#" "elpa/" "diary" "color-theme-settings.el" "window-settings.el" "hlinum.el" ".emacs" "auto-complete-settings.el" "retro-green-theme.el" ".gitignore" "backup_files/" "bookmarks" "session.10b17a971fd6d7ed7c150783445563908000000006390078" ".emacs.desktop.lock" "setup.py" "COPYING" "CONTRIBUTORS" "cursor-settings.el" "fill-column-indicator-settings.el" "url/" ".emacs.desktop" "auto-save-list/" "docs/" ".persistent-scratch" "MANIFEST.in" "dark-mint-theme.el" "ui-settings.el" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "ido.last~" "ropemacs/" "ido-settings.el" "python-mode.el-6.2.3/" "fill-column-indicator-settings.el~" "text-settings.el" "ido.last" "snippets/" ".persistent-scratch~" "ac-comphist.dat" "journal/" "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/" (23238 9504 5236 166000) "g5_classnotes/" "improvements.txt" "wk_01/" ".#notes.org" "PDA/" "notes.org" "wk_02/" ".DS_Store" "../" "./")
+
+ ("/Users/erebus/.emacs.d/" (23238 8230 957748 500000) "auto-complete.el" "#diary#" "python-settings.el" "diary~" "default.el" ".git/" "%backup%~" "README.rst" "#ido.last#" "#retro-green-theme.el#" "elpa/" "diary" "color-theme-settings.el" "window-settings.el" "hlinum.el" ".emacs" "auto-complete-settings.el" "retro-green-theme.el" ".gitignore" "backup_files/" "bookmarks" "session.10b17a971fd6d7ed7c150783445563908000000006390078" ".emacs.desktop.lock" "setup.py" "COPYING" "CONTRIBUTORS" "cursor-settings.el" "todo/" "fill-column-indicator-settings.el" "url/" ".emacs.desktop" "auto-save-list/" "docs/" ".persistent-scratch" "MANIFEST.in" "dark-mint-theme.el" "ui-settings.el" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "ido.last~" "ropemacs/" "ido-settings.el" "python-mode.el-6.2.3/" "fill-column-indicator-settings.el~" "text-settings.el" "ido.last" "snippets/" ".persistent-scratch~" "ac-comphist.dat" "journal/" "../" "./")
+
+ ("/Users/erebus/Documents/" (23238 7627 59038 747000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "thomas-cole-the-course_of_empire_desolation_18361.jpg" "Programming/" "cole_the_course_of_empire_the_pastoral_or_arcadian_state1330296016635.png" ".gtkrc-2.0" ".xinitrc" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "the-course-of-empire-the-consummation-of-the-empire-1836.jpg" "code_clan_work/" ".emacs.desktop" ".recently-used" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" "Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg" ".gksu.lock" ".builds/" ".local/" "thomas_cole__the_course_of_empire__destruction__1933-36-13E8B2DB4AD7FC10649.png" ".screenlayout/" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_01/" (23237 56650 65928 200000) "d2/" "d5/" "d4/" "d3/" "wk1_homework/" "d1/" ".DS_Store" "../" "./")
 
  ("/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/" (23234 7253 284383 272000) "bank_account_specs.rb" "../" "./")
 
@@ -96,15 +102,9 @@
 
  ("/Users/erebus/Documents/code_clan_work/wk_02/" (23234 2915 385806 899000) "wk2_homework/" "d2/" "d5/" "d4/" "d3/" "d1/" "../" "./")
 
- ("/Users/erebus/Documents/code_clan_work/wk_01/" (23230 3681 729348 312000) "d2/" "d5/" "d4/" "d3/" "wk1_homework/" "d1/" ".DS_Store" "../" "./")
-
- ("/Users/erebus/Documents/code_clan_work/" (23234 8154 182205 553000) "g5_classnotes/" "improvements.txt" "wk_01/" ".#notes.org" "PDA/" "#notes.org#" "notes.org" "wk_02/" ".DS_Store" "../" "./")
-
  ("/Users/erebus/Documents/.xmonad/" (23230 2208 574064 432000) "xmonad.hs" ".git/" "xmonad.hi" "xmonad.o" "xmonad.baks" "xmobar.hs" "README.markdown" "xmonad.errors" "xmonad-x86_64-linux" "#xmonad.hs#" "screenshot.png" "bin/" "xmonad-session-rc" "../" "./")
 
  ("/Users/erebus/Desktop/" (23228 50607 902095 281000) "New_Books" ".localized" ".DS_Store" "Screenshots/" "../" "./")
-
- ("/Users/erebus/Documents/" (23227 52961 191228 211000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "v_for_vendetta_by_movabletype-d4ni2vb.jpg" "Programming/" ".gtkrc-2.0" ".xinitrc" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "code_clan_work/" ".emacs.desktop" ".recently-used" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" ".gksu.lock" ".builds/" ".local/" ".screenlayout/" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" "mr_robot_by_carts-dak07bc.jpg" "Priests of Mars.jpg" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
 
  ("/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/" (23225 3777 740906 806000) "git_and_github.md" "what_is_programming.md" "introduction/" "git_homework.md" "command-line-basics/" "../" "./")
 
