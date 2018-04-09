@@ -2,66 +2,54 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Apr  6 09:57:18 2018
+;; Created Mon Apr  9 11:14:54 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23239 13934 885764 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "WhiteSmoke") (background-color . "black") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "orchid") (environment) (scroll-bar-background . "grey75") (scroll-bar-foreground . "WhiteSmoke") (mouse-color . "OrangeRed") (border-color . "gold") (undecorated . t) (frameset--id . "F41A-8BB1-3F2D-8A94") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 32) (width . 273) (left . 0) (top . 22)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1913) (pixel-height . 434) (total-width . 273) (total-height . 31) (normal-height . 1.0) (normal-width . 1.0) (buffer "programming.org" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 799) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23243 15646 691620 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "WhiteSmoke") (background-color . "black") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "orchid") (environment) (scroll-bar-background . "grey75") (scroll-bar-foreground . "WhiteSmoke") (mouse-color . "OrangeRed") (border-color . "gold") (undecorated . t) (frameset--id . "F41A-8BB1-3F2D-8A94") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 82) (width . 150) (left . 0) (top . 22)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 3) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 112) (min-pixel-width . 70) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 28) (min-pixel-width-safe . 14)) vc (pixel-width . 1052) (pixel-height . 1134) (total-width . 150) (total-height . 81) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1052) (pixel-height . 561) (total-width . 150) (total-height . 40) (normal-height . 0.5) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 10829) (start . 10087))) (leaf (last . t) (pixel-width . 1052) (pixel-height . 573) (total-width . 150) (total-height . 40) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 349) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("org-trello" "org-trell" "magit" "org" "diary-file" "helm-projecti" "robe" "grizzl" "projectile" "smartparen" "smartpar" "smart" "ag" "linum"))
-(setq regexp-search-ring nil)
+(setq search-ring '("robe" "robeSSSS" "inf-ruby" "bundler" "rvm" "origa" "orig" "vimish" "pomodoro" "pomodor" "notes" "notess" "notes" "tmp" "free" "inf"))
+(setq regexp-search-ring '("pomodoro"))
 (setq register-alist nil)
-(setq file-name-history '("/Users/erebus/Documents/code_clan_work/programming.org" "/Users/erebus/.emacs.d/.trello/scotifer92@googlemail.com.el" "/Users/erebus/Documents/trello.org" "/Users/erebus/.emacs" "/Users/erebus/.emacs.d/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/bank_account_specs.rb" "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/bank_account.rb" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs.d/.gitignore" "/Users/erebus/.emacs.d/README.rst" "/Users/erebus/.emacs.d/default.el" "/Users/erebus/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/.gitignore_global" "/Users/erebus/Documents/code_clan_work/wk_01/notes.org" "/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/git_and_github.md" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs" "/Users/erebus/Documents/New_Books/completeelectronicsselfteachingguidewithprojects.epub" "/Users/erebus/Desktop/New_Books" "/Users/erebus/Documents/.xmonad/xmonad.hs" "/Users/erebus/.emacs" "/etc/netctl/wlp3s0-TechpriestAP" "/home/erebus/.emacs" "/home/erebus/Programming/Python/new_python_test.py" "/home/erebus/.bash_history" "/home/erebus/Programming/Bash/settings.json" "/home/erebus/Programming/Bash/new_commands" "/home/erebus/Programming/Bash/borg-script" "/home/erebus/Programming/Bash/raspberry-build-script.sh" "/home/erebus/.emacs.d/"))
+(setq file-name-history '("/Users/erebus/Documents/diana_birthday/message1" "/Users/erebus/Documents/.xmonad/README.markdown" "/Users/erebus/Documents/notes.org" "~/Documents/notes.org" "/Users/erebus/Documents/notes.org" "/Users/erebus/Documents/code_clan_work/programming.org" "/Users/erebus/.emacs.d/.trello/scotifer92@googlemail.com.el" "/Users/erebus/Documents/trello.org" "/Users/erebus/.emacs" "/Users/erebus/.emacs.d/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/bank_account_specs.rb" "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/bank_account.rb" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs.d/.gitignore" "/Users/erebus/.emacs.d/README.rst" "/Users/erebus/.emacs.d/default.el" "/Users/erebus/.emacs" "/Users/erebus/Documents/code_clan_work/notes.org" "/Users/erebus/.gitignore_global" "/Users/erebus/Documents/code_clan_work/wk_01/notes.org" "/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/day_1/git_and_github.md" "/Users/erebus/Documents/code_clan_work/improvements.txt" "/Users/erebus/.emacs" "/Users/erebus/Documents/New_Books/completeelectronicsselfteachingguidewithprojects.epub" "/Users/erebus/Desktop/New_Books" "/Users/erebus/Documents/.xmonad/xmonad.hs" "/Users/erebus/.emacs" "/etc/netctl/wlp3s0-TechpriestAP" "/home/erebus/.emacs" "/home/erebus/Programming/Python/new_python_test.py" "/home/erebus/.bash_history" "/home/erebus/Programming/Bash/settings.json" "/home/erebus/Programming/Bash/new_commands" "/home/erebus/Programming/Bash/borg-script" "/home/erebus/Programming/Bash/raspberry-build-script.sh" "/home/erebus/.emacs.d/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/programming.org"
-  "programming.org"
-  'org-mode
-  '(persistent-scratch-autosave-mode smartparens-mode projectile-mode)
-  799
-  '(1 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-auto-unix) (truncate-lines . t))
-  '((mark-ring (798 798 798 798 798 798 798 798 798 798 798))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/notes.org"
-  "notes.org"
-  'org-mode
-  '(persistent-scratch-autosave-mode smartparens-mode projectile-mode org-trello-mode)
-  1389
-  '(1313 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
-  '((mark-ring (1389 1389 1389))))
-
 (desktop-create-buffer 208
   "/Users/erebus/.emacs"
   ".emacs"
   'emacs-lisp-mode
-  '(persistent-scratch-autosave-mode auto-complete-mode smartparens-mode projectile-mode)
-  10163
-  '(10098 nil)
+  '(visual-line-mode persistent-scratch-autosave-mode auto-complete-mode smartparens-mode projectile-mode)
+  10829
+  '(9983 nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix))
-  '((mark-ring (10046 4758 10163))))
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
+  '((mark-ring (10087 10457 10480 10395 10581 10636 10796 10872))))
 
 (desktop-create-buffer 208
-  "/tmp/notes"
-  "notes"
-  'fundamental-mode
-  '(persistent-scratch-autosave-mode smartparens-mode projectile-mode)
-  1
-  '(nil nil)
+  "/Users/erebus/Documents/notes.org"
+  "notes.org"
+  'org-mode
+  '(auto-fill-mode visual-line-mode persistent-scratch-autosave-mode smartparens-mode projectile-mode)
+  4247
+  '(4158 nil)
   nil
   nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (3971 3226 3214 2992 3251 2958 2951 3684 2584 2301 2483 1956 185 3516 3516 4254))))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/diana_birthday/message1"
+  "message1"
+  'text-mode
+  '(visual-line-mode persistent-scratch-autosave-mode smartparens-mode projectile-mode)
+  863
+  '(301 nil)
   nil
-  '((mark-ring nil)))
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (1 476 476 521 539 774))))
 
