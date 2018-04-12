@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "grizzl-core" "grizzl-core.el" (23226 10013
-;;;;;;  739404 322000))
+;;;### (autoloads nil "grizzl-core" "grizzl-core.el" (23247 28098
+;;;;;;  233644 746000))
 ;;; Generated autoloads from grizzl-core.el
 
 (autoload 'grizzl-make-index "grizzl-core" "\
@@ -41,8 +41,8 @@ If the :END option is specified, up to :END results are returned.
 
 ;;;***
 
-;;;### (autoloads nil "grizzl-read" "grizzl-read.el" (23226 10013
-;;;;;;  741765 317000))
+;;;### (autoloads nil "grizzl-read" "grizzl-read.el" (23247 28098
+;;;;;;  235707 822000))
 ;;; Generated autoloads from grizzl-read.el
 
 (autoload 'grizzl-completing-read "grizzl-read" "\
@@ -68,8 +68,8 @@ Move the selection down one row in `grizzl-completing-read'.
 
 ;;;***
 
-;;;### (autoloads nil nil ("grizzl-pkg.el" "grizzl.el") (23226 10013
-;;;;;;  743963 208000))
+;;;### (autoloads nil nil ("grizzl-pkg.el" "grizzl.el") (23247 28098
+;;;;;;  237852 659000))
 
 ;;;***
 

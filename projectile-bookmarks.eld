@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/Documents/.xmonad/" "~/" "~/Documents/code_clan_work/g5_classnotes/")

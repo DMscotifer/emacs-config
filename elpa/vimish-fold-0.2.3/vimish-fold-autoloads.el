@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "vimish-fold" "vimish-fold.el" (23243 14942
-;;;;;;  995450 238000))
+;;;### (autoloads nil "vimish-fold" "vimish-fold.el" (23247 28642
+;;;;;;  609491 796000))
 ;;; Generated autoloads from vimish-fold.el
 
 (autoload 'vimish-fold "vimish-fold" "\

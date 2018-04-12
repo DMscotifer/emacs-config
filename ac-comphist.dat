@@ -1,74 +1,12 @@
-((("setq" .
-   [1 0 0 0])
-  ("org-journal" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("require" .
-   [1 0 0 0 0 0 0])
-  ("Linux" .
-   [1 0 0 0 0])
-  ("python" .
-   [1 0 0 0 0 0])
-  ("and" .
-   [2 0 0])
-  ("for" .
-   [2 0 0])
-  ("commands" .
+((("elfeed-load-opml" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
    [1 0 0 0 0 0 0 0])
-  ("Learn" .
-   [1 0 0 0 0])
-  ("/media/external_drive" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("/media/external_drive/torrents-in-progress" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0])
-  ("/media/external_drive/torrents-completed" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("n" .
-   [1])
-  ("-i" .
-   [3 0])
-  ("/etc/transmission-daemon/settings.json" .
-   [0 0 0 0 0 2 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("sed" .
-   [8 0 0])
-  ("install" .
-   [2 0 0 0 0 0 0])
-  ("name" .
-   [1 0 0 0])
-  ("guinea_pig" .
-   [1 0 0 0 0 0 1 0 0 0])
-  ("animal" .
+  ("elfeed-feeds" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("elfeed" .
    [1 0 0 0 0 0])
-  ("dog" .
-   [2 0 0])
-  ("emp_2" .
-   [11 0 0 0 0])
-  ("emp_1" .
-   [8 0 0 0 1])
-  ("apt-get" .
-   [1 0 0 0 0 0 0])
-  ("emacs" .
-   [1 0 0 0 0])
-  ("/etc/openvpn" .
-   [1 0 0 0 0 0 0 0 0 0 0 1])
-  ("/etc/fstab" .
-   [0 0 0 0 0 0 0 0 1 0])
-  ("login.conf" .
-   [1 0 0 0 0 1 0 0 0 0])
-  ("rpc-whitelist" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("true," .
-   [1 0 0 0 0])
-  ("debian-transmission" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("USER" .
+  ("setq" .
    [1 0 0 0])
-  ("aver" .
-   [1 0 0 0])
-  ("~/pi/external_drive" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("/home" .
-   [2 0 0 0 0])
-  ("Frood" .
-   [3 0 0 0 0])
-  ("anniversary" .
-   [1 0 1 0 0 0 0 0 0 0 0])))
+  ("Discover" .
+   [1 0 0 0 0 0 0 0])))

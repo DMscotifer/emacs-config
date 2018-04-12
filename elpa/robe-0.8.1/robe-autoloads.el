@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "ac-robe" "ac-robe.el" (23226 11054 382528
-;;;;;;  380000))
+;;;### (autoloads nil "ac-robe" "ac-robe.el" (23247 31604 757499
+;;;;;;  4000))
 ;;; Generated autoloads from ac-robe.el
 
 (autoload 'ac-robe-available "ac-robe" "\
@@ -22,8 +22,8 @@ Return t if `robe-mode' completions are available, otherwise nil.
 
 ;;;***
 
-;;;### (autoloads nil "company-robe" "company-robe.el" (23226 11054
-;;;;;;  383709 26000))
+;;;### (autoloads nil "company-robe" "company-robe.el" (23247 31604
+;;;;;;  758992 494000))
 ;;; Generated autoloads from company-robe.el
 
 (autoload 'company-robe "company-robe" "\
@@ -33,7 +33,7 @@ A `company-mode' completion back-end for `robe-mode'.
 
 ;;;***
 
-;;;### (autoloads nil "robe" "robe.el" (23226 11054 366782 944000))
+;;;### (autoloads nil "robe" "robe.el" (23247 31604 738404 500000))
 ;;; Generated autoloads from robe.el
 
 (autoload 'robe-mode "robe" "\
@@ -47,7 +47,7 @@ The following commands are available:
 
 ;;;***
 
-;;;### (autoloads nil nil ("robe-pkg.el") (23226 11054 364572 569000))
+;;;### (autoloads nil nil ("robe-pkg.el") (23247 31604 736584 616000))
 
 ;;;***
 

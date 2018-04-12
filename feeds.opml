@@ -1,2 +1,38 @@
-(quote
-    ("https://www.cnet.com/rss/news/" "https://stallman.org/rss/rss.xml" "https://www.linuxjournal.com/node/feed" "https://news.ycombinator.com/rss" "https://hackaday.com/feed/" "http://feeds.arstechnica.com/arstechnica/index" "http://www.independent.co.uk/news/rss" "https://www.telegraph.co.uk/news/rss.xml" "https://theintercept.com/feed/?lang=en" "https://www.newstatesman.com/feeds/site_feed.rss" "http://feeds.reuters.com/reuters/topNews?irpc=69" "http://www.independent.co.uk/rss" "http://www.telegraph.co.uk/newsfeed/rss/news-uk_news.xml" "http://www.scotsman.com/rss/cmlink/1.65694" "http://www.linuxjournal.com/node/feed" "http://www.engadget.com/rss-full.xml" "http://www.drdobbs.com/rss/all" "http://feeds.gawker.com/lifehacker/vip" "http://stallman.org/rss/rss.xml" "http://feeds.feedburner.com/entrepreneur/latest" "http://feeds.feedburner.com/codinghorror/" "http://news.com.com/2547-1_3-0-5.xml" "http://www.linuxinsider.com/perl/syndication/rssfull.pl" "http://news.ycombinator.com/rss" "http://feeds.arstechnica.com/arstechnica/index/" "https://www.youtube.com/feeds/videos.xml?channel_id=UCbrXRQHV4TOU4Pqzw325Z1A" "http://www.joelonsoftware.com/rss.xml" "http://www.hackaday.com/rss.xml" "http://www.theverge.com/rss/full.xml" "http://feeds.feedburner.com/johnpilger" "https://firstlook.org/theintercept/feed/" "http://www.morningstaronline.co.uk/index.php/news/rss/feed/latest" "http://www.newstatesman.com/feeds/online-contents.rss"
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Scotifer subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="News" title="News">
+            <outline type="rss" text="Reuters" title="Reuters" xmlUrl="http://feeds.reuters.com/reuters/topNews?irpc=69" htmlUrl="http://www.reuters.com"/>
+            <outline type="rss" text="The Independent" title="The Independent" xmlUrl="http://www.independent.co.uk/rss" htmlUrl="http://www.independent.co.uk/rss"/>
+            <outline type="rss" text="News" title="News" xmlUrl="http://www.telegraph.co.uk/newsfeed/rss/news-uk_news.xml" htmlUrl="https://www.telegraph.co.uk/news/"/>
+            <outline type="rss" text="The Scotsman SWTS.sport.feed" title="The Scotsman SWTS.sport.feed" xmlUrl="http://www.scotsman.com/rss/cmlink/1.65694" htmlUrl="http://www.scotsman.com/sport-2-6545"/>
+        </outline>
+        <outline text="Tech" title="Tech">
+            <outline type="rss" text="Linux Journal - The Original Magazine of the Linux Community" title="Linux Journal - The Original Magazine of the Linux Community" xmlUrl="http://www.linuxjournal.com/node/feed" htmlUrl="https://www.linuxjournal.com/node/feed"/>
+            <outline type="rss" text="Engadget" title="Engadget" xmlUrl="http://www.engadget.com/rss-full.xml" htmlUrl="http://www.engadget.com"/>
+            <outline type="rss" text="Dr. Dobb's All" title="Dr. Dobb's All" xmlUrl="http://www.drdobbs.com/rss/all" htmlUrl="http://www.drdobbs.com/"/>
+            <outline type="rss" text="Lifehacker" title="Lifehacker" xmlUrl="http://feeds.gawker.com/lifehacker/vip" htmlUrl="http://lifehacker.com"/>
+            <outline type="rss" text="Richard Stallman's Political Notes" title="Richard Stallman's Political Notes" xmlUrl="http://stallman.org/rss/rss.xml" htmlUrl="https://stallman.org/archives/polnotes.html"/>
+            <outline type="rss" text="Entrepreneur: Latest Articles" title="Entrepreneur: Latest Articles" xmlUrl="http://feeds.feedburner.com/entrepreneur/latest" htmlUrl="https://www.entrepreneur.com/latest?utm_source=Feedly&amp;utm_medium=related&amp;utm_campaign=syndication"/>
+            <outline type="rss" text="Coding Horror" title="Coding Horror" xmlUrl="http://feeds.feedburner.com/codinghorror/" htmlUrl="https://blog.codinghorror.com/"/>
+            <outline type="rss" text="CNET News" title="CNET News" xmlUrl="http://news.com.com/2547-1_3-0-5.xml" htmlUrl="http://www.cnet.com/#ftag=CAD590a51e"/>
+            <outline type="rss" text="LinuxInsider" title="LinuxInsider" xmlUrl="http://www.linuxinsider.com/perl/syndication/rssfull.pl" htmlUrl="http://www.linuxinsider.com"/>
+            <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="http://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+            <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="http://feeds.arstechnica.com/arstechnica/index/" htmlUrl="https://arstechnica.com"/>
+            <outline type="rss" text="Pluralsight" title="Pluralsight" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbrXRQHV4TOU4Pqzw325Z1A" htmlUrl="https://www.youtube.com/channel/UCbrXRQHV4TOU4Pqzw325Z1A"/>
+            <outline type="rss" text="Joel on Software" title="Joel on Software" xmlUrl="http://www.joelonsoftware.com/rss.xml" htmlUrl="https://www.joelonsoftware.com"/>
+            <outline type="rss" text="Hackaday" title="Hackaday" xmlUrl="http://www.hackaday.com/rss.xml" htmlUrl="https://hackaday.com"/>
+            <outline type="rss" text="The Verge" title="The Verge" xmlUrl="http://www.theverge.com/rss/full.xml" htmlUrl="https://www.theverge.com/"/>
+        </outline>
+        <outline text="Magazines" title="Magazines">
+            <outline type="rss" text="JohnPilger.com" title="JohnPilger.com" xmlUrl="http://feeds.feedburner.com/johnpilger" htmlUrl="http://johnpilger.com"/>
+            <outline type="rss" text="The Intercept" title="The Intercept" xmlUrl="https://firstlook.org/theintercept/feed/" htmlUrl="https://theintercept.com"/>
+            <outline type="rss" text="The Morning Star" title="The Morning Star" xmlUrl="http://www.morningstaronline.co.uk/index.php/news/rss/feed/latest" htmlUrl="http://www.morningstar.co.uk"/>
+            <outline type="rss" text="New Statesman" title="New Statesman" xmlUrl="http://www.newstatesman.com/feeds/online-contents.rss" htmlUrl="https://www.newstatesman.com/feeds"/>
+        </outline>
+    </body>
+</opml>

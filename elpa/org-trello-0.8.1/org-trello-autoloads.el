@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (directory-file-name (or (file-name-directory #$) (car load-path))))
 
-;;;### (autoloads nil "org-trello" "org-trello.el" (23239 12305 623308
-;;;;;;  603000))
+;;;### (autoloads nil "org-trello" "org-trello.el" (23247 29760 630043
+;;;;;;  806000))
 ;;; Generated autoloads from org-trello.el
 
 (autoload 'org-trello-version "org-trello" "\
@@ -152,8 +152,8 @@ Sync your org-mode and your trello together.
 
 ;;;***
 
-;;;### (autoloads nil "org-trello-setup" "org-trello-setup.el" (23239
-;;;;;;  12305 618118 325000))
+;;;### (autoloads nil "org-trello-setup" "org-trello-setup.el" (23247
+;;;;;;  29760 625116 370000))
 ;;; Generated autoloads from org-trello-setup.el
 
 (defvar org-trello-current-prefix-keybinding nil "\
@@ -169,7 +169,7 @@ The default prefix keybinding to execute org-trello commands.")
 ;;;;;;  "org-trello-deferred.el" "org-trello-entity.el" "org-trello-hash.el"
 ;;;;;;  "org-trello-input.el" "org-trello-log.el" "org-trello-pkg.el"
 ;;;;;;  "org-trello-proxy.el" "org-trello-query.el" "org-trello-utils.el")
-;;;;;;  (23239 12305 632904 629000))
+;;;;;;  (23247 29760 639529 294000))
 
 ;;;***
 
