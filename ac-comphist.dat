@@ -1,4 +1,6 @@
-((("org-journal" .
+((("setq" .
+   [1 0 0 0])
+  ("org-journal" .
    [1 0 0 0 0 0 0 0 0 0 0])
   ("require" .
    [1 0 0 0 0 0 0])

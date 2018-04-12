@@ -40,16 +40,33 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#2d3743" "#ff4242" "#74af68" "#dbdb95" "#34cae2" "#008b8b" "#00ede1" "#e1e1e0"])
+ '(calendar-american-date-display-form
+   (quote
+    ((if dayname
+	 (concat dayname ", "))
+     day " " monthname ", " year)))
+ '(calendar-date-display-form
+   (quote
+    ((if dayname
+	 (concat dayname ", "))
+     day " " monthname ", " year)))
  '(custom-enabled-themes (quote (manoj-dark)))
  '(custom-safe-themes
    (quote
     ("d6922c974e8a78378eacb01414183ce32bc8dbf2de78aabcc6ad8172547cb074" "5c64430cb8e12e2486cd9f74d4ce5172e00f8e633095d27edd212787a4225245" "1342a81078bdac27f80b86807b19cb27addc1f9e4c6a637a505ae3ba4699f777" default)))
  '(default-frame-alist (quote ((undecorated . t))))
+ '(elfeed-feeds
+   (quote
+    ("https://www.cnet.com/rss/news/" "https://stallman.org/rss/rss.xml" "https://www.linuxjournal.com/node/feed" "https://news.ycombinator.com/rss" "https://hackaday.com/feed/" "http://feeds.arstechnica.com/arstechnica/index" "http://www.independent.co.uk/news/rss" "https://www.telegraph.co.uk/news/rss.xml" "https://theintercept.com/feed/?lang=en" "https://www.newstatesman.com/feeds/site_feed.rss" "http://feeds.reuters.com/reuters/topNews?irpc=69" "http://www.independent.co.uk/rss" "http://www.telegraph.co.uk/newsfeed/rss/news-uk_news.xml" "http://www.scotsman.com/rss/cmlink/1.65694" "http://www.linuxjournal.com/node/feed" "http://www.engadget.com/rss-full.xml" "http://www.drdobbs.com/rss/all" "http://feeds.gawker.com/lifehacker/vip" "http://stallman.org/rss/rss.xml" "http://feeds.feedburner.com/entrepreneur/latest" "http://feeds.feedburner.com/codinghorror/" "http://news.com.com/2547-1_3-0-5.xml" "http://www.linuxinsider.com/perl/syndication/rssfull.pl" "http://news.ycombinator.com/rss" "http://feeds.arstechnica.com/arstechnica/index/" "https://www.youtube.com/feeds/videos.xml?channel_id=UCbrXRQHV4TOU4Pqzw325Z1A" "http://www.joelonsoftware.com/rss.xml" "http://www.hackaday.com/rss.xml" "http://www.theverge.com/rss/full.xml" "http://feeds.feedburner.com/johnpilger" "https://firstlook.org/theintercept/feed/" "http://www.morningstaronline.co.uk/index.php/news/rss/feed/latest" "http://www.newstatesman.com/feeds/online-contents.rss")))
  '(fci-rule-color "#383838")
  '(fill-column 100)
+ '(org-after-todo-state-change-hook (quote (org-clock-out-if-current)))
+ '(org-agenda-files (quote ("~/org/notes.org")))
+ '(org-support-shift-select (quote always))
+ '(org-trello-current-prefix-keybinding "C-c o" nil (org-trello))
  '(package-selected-packages
    (quote
-    (robe grizzl helm-projectile projectile smartparens ag nlinum calfw-cal org-journal ac-html god-mode cyberpunk-theme pdf-tools discover anaconda-mode hideshow-org helm-swoop helm org ace-window highlight-symbol js2-highlight-vars ac-inf-ruby enh-ruby-mode python-mode python green-is-the-new-black-theme fill-column-indicator auto-complete)))
+    (org-ref elfeed-web elfeed rvm vimish-fold org-pomodoro free-keys ruby-end minitest org-trello magit helm-org-rifle robe grizzl helm-projectile projectile smartparens ag nlinum calfw-cal org-journal ac-html god-mode cyberpunk-theme pdf-tools discover anaconda-mode hideshow-org helm-swoop helm org ace-window highlight-symbol js2-highlight-vars ac-inf-ruby enh-ruby-mode python-mode python green-is-the-new-black-theme fill-column-indicator auto-complete)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -161,7 +178,7 @@
 (setq python-shell-interpreter "/usr/bin/python3")
 (load "~/.emacs.d/elpa/python-mode-20170919.156/python-mode.el")
 
-(find-file "/tmp/notes") 
+(find-file "~/Documents/notes.org") 
 
 (eval-after-load 'linum
   '(progn
@@ -217,3 +234,68 @@
 ;; ========== Robe ========== ;;
 
 (add-hook 'ruby-mode-hook 'robe-mode)
+
+;; ========== Diary ========== ;;
+
+(setq view-diary-entries-initially t
+       mark-diary-entries-in-calendar t
+       number-of-diary-entries 7)
+ (add-hook 'diary-display-hook 'fancy-diary-display)
+ (add-hook 'today-visible-calendar-hook 'calendar-mark-today)
+
+;; ========== Insert Date ========== ;;
+
+(defun insert-current-date () (interactive)
+       (insert (shell-command-to-string "echo -n $(date +%d-%m-%Y)")))
+
+ (defun insdate-insert-current-date (&optional omit-day-of-week-p)
+    "Insert today's date using the current locale.
+  With a prefix argument, the date is inserted without the day of
+  the week."
+    (interactive "P*")
+    (insert (calendar-date-string (calendar-current-date) nil
+				  omit-day-of-week-p)))
+  (global-set-key "\C-x\M-d" `insdate-insert-current-date)
+
+;; ========== Optimise Org ========== ;;
+
+(require 'helm-org-rifle)
+
+;; ========== Ruby ========== ;;
+
+  (add-to-list 'auto-mode-alist
+               '("\\.\\(?:cap\\|gemspec\\|irbrc\\|gemrc\\|rake\\|rb\\|ru\\|thor\\)\\'" . ruby-mode))
+  (add-to-list 'auto-mode-alist
+               '("\\(?:Brewfile\\|Capfile\\|Gemfile\\(?:\\.[a-zA-Z0-9._-]+\\)?\\|[rR]akefile\\)\\'" . ruby-mode))
+
+
+;; ==================== Vimish-fold ==================== ;;
+
+(require 'vimish-fold)
+(global-set-key (kbd "C-x v f") #'vimish-fold)
+(global-set-key (kbd "C-x v v") #'vimish-fold-delete)
+
+;; ==================== Ruby ==================== ;;
+
+(eval-when-compile (require 'cl))
+(defvar eshell-path-env)
+(defvar persp-mode)
+(defvar perspectives-hash)
+(declare-function persp-switch "perspective" (name))
+
+(add-to-list 'load-path "~/.emacs.d/vendor/bundler.el")
+(require 'bundler)
+
+(add-hook 'ruby-mode-hook 'robe-mode)
+
+;; ==================== Org Mode ==================== ;;
+
+(setq org-agenda-include-diary t)
+
+(require 'org)
+(setq org-log-done t)
+
+(setq org-agenda-files (list "~/org/personal.org"
+                             "~/org/business.org" 
+                             "~/org/notes.org"))
+

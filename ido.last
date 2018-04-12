@@ -2,14 +2,17 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/erebus/.emacs.d/" . ".trello/")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d2/bounty_hunters/" . "models/")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d2/" . "bounty_hunters/")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" . "d2/")
+ ("/Users/erebus/.emacs.d/" . "lisp/")
  ("/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/" . "specs/")
  ("/Users/erebus/Documents/code_clan_work/wk_02/d1/" . "single_class/")
  ("/Users/erebus/Documents/code_clan_work/wk_02/" . "d1/")
- ("/Users/erebus/" . "Documents/")
+ ("/Users/erebus/" . "Downloads/")
  ("/Users/erebus/Documents/code_clan_work/g5_classnotes/wk_01/" . "day_1/")
  ("/Users/erebus/Documents/code_clan_work/g5_classnotes/" . "wk_01/")
- ("/Users/erebus/Documents/code_clan_work/" . "wk_01/")
+ ("/Users/erebus/Documents/code_clan_work/" . "wk_03/")
  ("/Users/erebus/Documents/" . "code_clan_work/")
  ("/Users/" . "erebus/")
  ("/etc/" . "netctl/")
@@ -37,13 +40,18 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/erebus/Documents/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/d2/bounty_hunters/models/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/d2/bounty_hunters/"
+ "/Users/erebus/.elfeed/"
+ "/Users/erebus/.emacs.d/"
+ "/Users/erebus/Downloads/"
+ "/Users/erebus/.emacs.d/lisp/"
  "/Users/erebus/Documents/diana_birthday/"
  "/Users/erebus/Documents/.xmonad/"
- "/Users/erebus/Documents/"
  "/Users/erebus/Documents/code_clan_work/"
  "/Users/erebus/.emacs.d/.trello/"
  "/Users/erebus/"
- "/Users/erebus/.emacs.d/"
  "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/specs/"
  "/Users/erebus/Documents/code_clan_work/wk_02/d1/single_class/"
  "/Users/erebus/Documents/code_clan_work/wk_01/"
@@ -74,29 +82,45 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "notes.org"
+ "bounty.rb"
+ "console.rb"
+ "index"
+ "feeds.opml"
+ "elfeed-org.el"
+ "feedly-bc7596f0-954c-4f8a-9d3f-f4e378d6b7ac-2018-04-09.opml"
+ "gnu.el"
  "message1"
  "README.markdown"
- "notes.org"
- "programming.org"
- "scotifer92@googlemail.com.el"
- "trello.org"
- ".emacs"
- "bank_account_specs.rb"
- "bank_account.rb"
- "improvements.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/erebus/Documents/" (23243 11541 913913 757000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" "programming.org" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "thomas-cole-the-course_of_empire_desolation_18361.jpg" "Programming/" "cole_the_course_of_empire_the_pastoral_or_arcadian_state1330296016635.png" ".gtkrc-2.0" ".#notes.org" ".xinitrc" "trello.org" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "the-course-of-empire-the-consummation-of-the-empire-1836.jpg" "code_clan_work/" ".emacs.desktop" ".recently-used" "diana_birthday/" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" "Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg" ".gksu.lock" ".builds/" ".local/" "Paradox Interactive/" "thomas_cole__the_course_of_empire__destruction__1933-36-13E8B2DB4AD7FC10649.png" ".screenlayout/" "notes.org" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d3/" (23243 8051 398157 279000) "../" "./")
 
- ("/Users/erebus/.emacs.d/" (23241 16132 244844 902000) ".trello/" "auto-complete.el" "#diary#" "python-settings.el" "diary~" "default.el" ".git/" "%backup%~" "README.rst" "#ido.last#" "#retro-green-theme.el#" "elpa/" "diary" "color-theme-settings.el" "window-settings.el" "hlinum.el" "request/" ".emacs" "auto-complete-settings.el" "retro-green-theme.el" ".gitignore" "backup_files/" "bookmarks" "session.10b17a971fd6d7ed7c150783445563908000000006390078" ".emacs.desktop.lock" "setup.py" "COPYING" "CONTRIBUTORS" "cursor-settings.el" "todo/" "fill-column-indicator-settings.el" "url/" ".emacs.desktop" "auto-save-list/" "docs/" ".persistent-scratch" "MANIFEST.in" "dark-mint-theme.el" "ui-settings.el" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "ido.last~" "ropemacs/" "ido-settings.el" "python-mode.el-6.2.3/" "fill-column-indicator-settings.el~" "text-settings.el" "ido.last" "snippets/" ".persistent-scratch~" "ac-comphist.dat" "journal/" "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d2/bounty_hunters/models/" (23245 52644 40482 167000) "bounty.rb" "../" "./")
 
- ("/Users/erebus/Documents/diana_birthday/" (23241 16165 468324 214000) "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d2/bounty_hunters/" (23245 52833 446519 186000) "console.rb" "db/" "models/" "../" "./")
 
- ("/Users/erebus/" (23241 16167 100539 237000) ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" "Documents/" ".npm/" "My Games/" ".Trash/" ".emacs~" ".zsh-update" "Applications/" ".emacs" "Movies/" ".ssh/" "#*mail*#3395LNh#" "Public/" ".bash_sessions/" "mac" ".gitignore_global" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d2/" (23245 52623 415828 642000) "pizza_shop/" "bounty_hunters/" "space_cowboys/" "../" "./")
 
- ("/Users/erebus/Documents/code_clan_work/" (23239 20015 115892 669000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "PDA/" "wk_02/" ".DS_Store" "../" "./")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" (23243 8051 398261 710000) "wk_02_homework/" "d2/" "d5/" "d4/" "d3/" "d1/" "../" "./")
+
+ ("/Users/erebus/Documents/" (23245 55143 773436 624000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" "programming.org" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "thomas-cole-the-course_of_empire_desolation_18361.jpg" "Programming/" "cole_the_course_of_empire_the_pastoral_or_arcadian_state1330296016635.png" ".gtkrc-2.0" ".xinitrc" "trello.org" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "the-course-of-empire-the-consummation-of-the-empire-1836.jpg" "code_clan_work/" ".emacs.desktop" ".recently-used" "diana_birthday/" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" "Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg" ".gksu.lock" ".builds/" ".local/" "Paradox Interactive/" "thomas_cole__the_course_of_empire__destruction__1933-36-13E8B2DB4AD7FC10649.png" ".screenlayout/" "notes.org" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
+
+ ("/Users/erebus/.elfeed/" (23243 28251 480192 98000) "data/" "index" "../" "./")
+
+ ("/Users/erebus/" (23243 27588 901850 305000) ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" ".newsrc-dribble" "Documents/" ".npm/" "My Games/" ".Trash/" ".emacs~" ".zsh-update" "Applications/" ".emacs" "Movies/" ".ssh/" "#*mail*#3395LNh#" "News/" "Public/" ".mplayer/" ".bash_sessions/" "mac" ".gitignore_global" ".elfeed/" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".psql_history" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".wget-hsts" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
+
+ ("/Users/erebus/.emacs.d/" (23243 27207 590157 714000) ".trello/" "auto-complete.el" "#diary#" "vendor/" "python-settings.el" "diary~" "default.el" ".git/" "%backup%~" "README.rst" "#ido.last#" "#retro-green-theme.el#" "feeds.opml" "elpa/" "diary" "color-theme-settings.el" "window-settings.el" "hlinum.el" "request/" ".emacs" "auto-complete-settings.el" "retro-green-theme.el" ".gitignore" "backup_files/" "bookmarks" "session.10b17a971fd6d7ed7c150783445563908000000006390078" ".emacs.desktop.lock" "setup.py" "COPYING" "CONTRIBUTORS" "cursor-settings.el" "todo/" "fill-column-indicator-settings.el" "url/" ".emacs.desktop" "auto-save-list/" "docs/" ".persistent-scratch" "MANIFEST.in" "dark-mint-theme.el" "ui-settings.el" "elfeed-org.el" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "ido.last~" "ropemacs/" "ido-settings.el" "python-mode.el-6.2.3/" "fill-column-indicator-settings.el~" "text-settings.el" "ido.last" "snippets/" ".persistent-scratch~" "ac-comphist.dat" "journal/" "../" "./")
+
+ ("/Users/erebus/Downloads/" (23243 20654 769901 569000) "Product photoPlantronics Voyager 5200 linux at DuckDuckGo.html" "Postgres-2.1.3.dmg" "WacomTablet_6.2.0w4.dmg" "feedly-bc7596f0-954c-4f8a-9d3f-f4e378d6b7ac-2018-04-09.opml" "snakes_and_ladders.zip" ".localized" ".DS_Store" "document.pdf" "../" "./")
+
+ ("/Users/erebus/.emacs.d/lisp/" (23243 18487 234554 682000) "elfeed-org.el" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/" (23243 8030 533495 847000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "PDA/" "wk_02/" "wk_03/" ".DS_Store" "../" "./")
+
+ ("/Users/erebus/Documents/diana_birthday/" (23241 63599 343170 49000) "Jeff Buckley - Hallelujah (Official Video)-y8AWFf7EAc4.webm" "WALK THE MOON - One Foot (Official Video)-05v4nfUmBYI.mp3" "Imagine Dragons - Whatever It Takes-gOsM-DYAEhY.mp3" "mp4_to_mp3/" "Charli XCX - Boys (Nevada Remix)-sV_YI3noPVI.mp3" "Aerosmith - I Don't Want to Miss a Thing (Video)-JkK8g6FMEXE.mp3" "Mr  Robot Soundtrack   Season 1 & Season 2 Best Songs 1-pFdfhg2IP_0.mp3" "Aminata  Love Injected (Latvia) - LIVE at Eurovision 2015 Grand Final--usdXbeGHi8.mp3" "MK - 17 (Lyric Video)-NoBAfjvhj7o.mp3" "John Denver - Take Me Home, Country Roads (Audio)-1vrEljMfXYo.mp3" "Disturbed  - The Sound Of Silence [Official Music Video]-u9Dg-g7t2l4.mp3" "Top 10 Songs That Will Make You Cry-wESuMyTv8sQ.mp3" "MUSIQQ - Manā Pilsētā Līst-6veOvKsAgPc.mp3" "Childish Gambino - Telegraph Ave. (Louis Futon & Louis The Child Flip)-LxBSm_djLMM.mp3" "A Boy Named Sue - Johnny Cash-_Gbtm-93oqE.webm" "Johnny Cash - Hurt (Official Video) HD-vt1Pwfnh5pc.mp3" "Mr. Robot - Hey You - Pink Floyd - Elliot-lI1xZAHXIcM.mp3" "The Animals - The House of the Rising Sun Mafia III Trailer 3 Casino !!!-0sB3Fjw3Uvc.mp3" "Moby & The Void Pacific Choir - In This Cold Place (Official Video)-vmi-MtP969M.mp3" "Johnny Cash - Heart Of Gold-drsMyeXzLSo.webm" "Taylor Swift - …Ready For It-wIft-t-MQuE.mp3" "Johnny Cash - 'One'-CGrR-7_OBpA.webm" "Johnny Cash - Folsom Prison Blues Lyrics-_Xyp63MaSBs.mp3" "OFFICIAL Somewhere over the Rainbow - Israel 'IZ' Kamakawiwoʻole-V1bFr2SWP1I.webm" "Moana - We Know The Way (Extended)-xtfT2dXj8pw.mp3" "Frank Sinatra-Killing me softly-8tbP3f3i03E.mp3" "John Murphy - In the House, In a Heartbeat (Metro Exodus)-Es3GQMOLHkk.mp3" "prince of egypt deliver us-biVEtQQ_9mo.mp3" "BANKS - Underdog (Audio)-xQ4oE_tL7IA.mp3" "ＳＰＡＣＥ　ＴＲＩＰ [ Chillwave - Synthwave - Retrowave Mix ]-wOMwO5T3yT4.mp3" "Foster The People - Pumped up Kicks-SDTZ7iX4vTQ.mp3" "Hans Zimmer - Interstellar - Main Theme (Piano Version) + Sheet Music-4y33h81phKU.mp3" "Jemaine Clement - Shiny (From 'Moana')-93lrosBEW-Q.mp3" "Prince of Egypt Medley - Peter Hollens-mlD8A6e0nXI.mp3" "Evanescence - Bring Me To Life-3YxaaGgTQYM.mp3" "Dwayne Johnson - You're Welcome (From 'Moana')-79DijItQXMM.mp3" "Craig David - Heartline-7-1BRLMwQ-A.mp3" "Gustavo Santaolalla - Main Theme (The Last Of Us Soundtrack)-Y97u-U0nvJM.mp3" "Limp Bizkit - Behind Blue Eyes - Lyrics-8IEQpfA528M.webm" "Lorn - Acid Rain (Official Music Video)-nxg4C365LbQ.mp3" "R3HAB & Quintino  - I Just Can't (Official Video)-k0WRpQU9zK0.mp3" "Mr. Robot _ Goner-gISE5ublbQA.mp3" "Johnny Cash   I Walk the Line-Lq0fUa0vW_E.webm" "Bad Wolves - Zombie (Official Video)-9XaS93WMRQQ.mp3" "Goëtia. _ Dark Magic Music-_iF7lkXKHlA.mp3" "EXIT EDEN - Unfaithful (Rihanna Cover) _ Napalm Records-ED8Xezz2bhU.mp3" "MUSIQQ - Sekundes-s8tIGXAxvW4.mp3" "Ukrainian soldier playing piano-_sh6MDFJdNU.mp3" "Queens Of The Stone Age – Make It Wit Chu (Virgin Magnetic Material Remix)-hg14Ocs03xA.mp3" "Johnny Cash - You are my Sunshine Original-cGa3zFRqDn4.mp3" "Simple Man - Lynyrd Skynyrd - Lyrics HD-sMmTkKz60W8.mp3" "MUSIQQ - Vasara Janvārī-BrFY0O5u_yg.mp3" "Prāta Vētra, Musiqq - Debesis iekrita Tevī-HoKAPh9uRcM.mp3" ".DS_Store" "MUSIQQ - Atbalss--LMaZJklDh8.mp3" "message1" "Dark Piano - Sociopath-VagES3pxttQ.mp3" "Led Zeppelin -  Stairway To Heaven ᴴᴰ (Legendado_Tradução PTBR)-D9ioyEvdggk.mp3" "Metallica - Nothing Else Matters [Official Music Video]-tAGnKpE4NCI.webm" "Heilung _ LIFA - Krigsgaldr LIVE-QRg_8NNPTD8.mp3" "FROZEN _ Let It Go Sing-along _ Official Disney UK-L0MK7qz13bU.mp3" "Immortals - Fall Out Boy (Lyrics)-jBiQCZd8UII.mp3" "MUSIQQ - Angel in Disguise (Eurovision 2011 Latvia) Official Video-zav8x8A05mo.mp3" "Johnny Cash and June Carter -  'Jackson'-4GvD_NQrLFo.mp3" "Mr Robot Main Theme Fixed and Extended-XMEXPkPmmq0.mp3" "../" "./")
 
  ("/Users/erebus/Documents/.xmonad/" (23239 48607 493733 781000) "xmonad.hs" ".git/" "xmonad.hi" "xmonad.o" "xmonad.baks" "xmobar.hs" "README.markdown" "xmonad.errors" "xmonad-x86_64-linux" "#xmonad.hs#" "screenshot.png" "bin/" "xmonad-session-rc" "../" "./")
 
