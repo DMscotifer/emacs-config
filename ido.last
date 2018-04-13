@@ -1,0 +1,43 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" . "wk_02_homework/")
+ ("/Users/erebus/Documents/code_clan_work/" . "wk_03/")
+ ("/Users/erebus/Documents/" . "code_clan_work/")
+ ("/Users/erebus/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/erebus/.emacs.d/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/"
+ "/Users/erebus/org/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "console.rb"
+ "notes.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/erebus/.emacs.d/" (23248 29190 931381 563000) ".git/" "feeds.opml" "elpa/" ".gitignore" "backup_files/" ".emacs.desktop.lock" "init.el" ".emacs.desktop" "auto-save-list/" ".persistent-scratch" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "plugins/" ".DS_Store" "init.el~" "snippets/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/erebus/" (23248 28896 321310 158000) ".smex-items" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" ".newsrc-dribble" "Documents/" ".npm/" "My Games/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" "#*mail*#3395LNh#" "News/" "Public/" ".mplayer/" ".bash_sessions/" "mac" ".gitignore_global" ".elfeed/" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".emacs.baks" ".psql_history" "org/" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".emacs_backup/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".wget-hsts" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/" (23248 28893 349369 724000) "db/" "models/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" (23243 8051 398261 710000) "wk_02_homework/" "d2/" "d5/" "d4/" "d3/" "d1/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/" (23243 8030 533495 847000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "PDA/" "wk_02/" "wk_03/" ".DS_Store" "../" "./")
+
+ ("/Users/erebus/Documents/" (23247 23355 980392 286000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" "programming.org" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "thomas-cole-the-course_of_empire_desolation_18361.jpg" "Programming/" "cole_the_course_of_empire_the_pastoral_or_arcadian_state1330296016635.png" ".gtkrc-2.0" ".xinitrc" "trello.org" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "the-course-of-empire-the-consummation-of-the-empire-1836.jpg" "code_clan_work/" ".emacs.desktop" ".recently-used" "diana_birthday/" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" "Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg" ".gksu.lock" ".builds/" ".local/" "Paradox Interactive/" "thomas_cole__the_course_of_empire__destruction__1933-36-13E8B2DB4AD7FC10649.png" ".screenlayout/" "notes.org" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
+
+ ("/Users/erebus/org/" (23248 28736 102879 458000) "personal.org" "business.org" ".#notes.org" "notes.org" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

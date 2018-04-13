@@ -1,12 +1,12 @@
-((("elfeed-load-opml" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
+((("Discover" .
    [1 0 0 0 0 0 0 0])
-  ("elfeed-feeds" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("elfeed" .
-   [1 0 0 0 0 0])
   ("setq" .
    [1 0 0 0])
-  ("Discover" .
-   [1 0 0 0 0 0 0 0])))
+  ("elfeed" .
+   [1 0 0 0 0 0])
+  ("elfeed-feeds" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("elfeed-load-opml" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

@@ -151,7 +151,7 @@
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-selected-packages
    (quote
-    (robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
+    (org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -350,3 +350,10 @@
 (setq org-agenda-files (list "~/org/personal.org"
                              "~/org/business.org" 
                              "~/org/notes.org"))
+
+;; ==================== Resize Windows ==================== ;;
+
+    (global-set-key (kbd "C-s-<left>") 'shrink-window-horizontally)
+    (global-set-key (kbd "C-s-<right>") 'enlarge-window-horizontally)
+    (global-set-key (kbd "C-s-<down>") 'shrink-window)
+    (global-set-key (kbd "C-s-<up>") 'enlarge-window)
