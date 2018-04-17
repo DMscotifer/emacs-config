@@ -1,1 +1,1 @@
-("~/.emacs.d/")
+("~/Documents/code_clan_work/wk_03/wk_03_homework/" "~/.emacs.d/")

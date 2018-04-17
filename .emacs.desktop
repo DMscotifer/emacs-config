@@ -2,126 +2,18 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Apr 13 10:46:08 2018
+;; Created Tue Apr 17 12:02:50 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23248 31840 975767 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "9A7F-DD21-0A7A-4D78") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 26) (width . 191) (left . 576) (top . 800)) ((min-height . 8) (min-width . 40) (min-height-ignore . 4) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 8) (min-pixel-height . 112) (min-pixel-width . 280) (min-pixel-height-ignore . 56) (min-pixel-width-ignore . 84) (min-pixel-height-safe . 28) (min-pixel-width-safe . 56)) hc (pixel-width . 1339) (pixel-height . 350) (total-width . 191) (total-height . 25) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (vc (pixel-width . 875) (pixel-height . 350) (total-width . 125) (total-height . 25) (normal-height . 1.0) (normal-width . 0.6543665436654366) (combination-limit) (hc (pixel-width . 875) (pixel-height . 182) (total-width . 125) (total-height . 13) (normal-height . 0.524390243902439) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 434) (pixel-height . 182) (total-width . 62) (total-height . 13) (normal-height . 1.0) (normal-width . 0.5) (buffer "console.rb" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 126) (start . 1))) (leaf (last . t) (pixel-width . 441) (pixel-height . 182) (total-width . 63) (total-height . 13) (normal-height . 1.0) (normal-width . 0.5) (buffer "tickets.rb" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (hc (last . t) (pixel-width . 875) (pixel-height . 168) (total-width . 125) (total-height . 12) (normal-height . 0.47560975609756095) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 434) (pixel-height . 168) (total-width . 62) (total-height . 12) (normal-height . 1.0) (normal-width . 0.5) (buffer "notes.org" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 10223) (start . 10174))) (leaf (last . t) (pixel-width . 441) (pixel-height . 168) (total-width . 63) (total-height . 12) (normal-height . 1.0) (normal-width . 0.5) (buffer "customers.rb" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 270) (start . 165))))) (vc (last . t) (pixel-width . 464) (pixel-height . 350) (total-width . 66) (total-height . 25) (normal-height . 1.0) (normal-width . 0.34563345633456344) (combination-limit) (hc (pixel-width . 464) (pixel-height . 182) (total-width . 66) (total-height . 13) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 198) (pixel-height . 182) (total-width . 28) (total-height . 13) (normal-height . 1.0) (normal-width . 0.42456896551724144) (buffer "code_clan_cinema.sql" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 216) (start . 140))) (leaf (last . t) (pixel-width . 266) (pixel-height . 182) (total-width . 38) (total-height . 13) (normal-height . 1.0) (normal-width . 0.5754310344827586) (buffer "films.rb" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 266) (start . 135)))) (leaf (last . t) (pixel-width . 464) (pixel-height . 168) (total-width . 66) (total-height . 12) (normal-height . 0.5) (normal-width . 1.0) (buffer "sql_runner.rb" (selected) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 32) (start . 1))))))])
+(setq desktop-saved-frameset [frameset 1 (23253 54362 860115 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "9A7F-DD21-0A7A-4D78") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 83) (width . 273) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1913) (pixel-height . 1148) (total-width . 273) (total-height . 82) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("pomo"))
+(setq search-ring '("emmet" "pomo"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
 (setq file-name-history '("/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/films.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/tickets.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/customers.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/sql_runner.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/code_clan_cinema.sql" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/console.rb" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/console.rb" "/Users/erebus/org/notes.org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/customers.rb"
-  "customers.rb"
-  'ruby-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
-  270
-  '(1 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (76))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/notes.org"
-  "notes.org"
-  'org-mode
-  '(visual-line-mode projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  10223
-  '(9871 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines))
-  '((mark-ring (9802 7203 10174 1099 10238 10207 10174 10695 10327 10308 10173 11179 11179 11179 11166 11179))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/tickets.rb"
-  "tickets.rb"
-  'ruby-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
-  1
-  '(1 nil)
-  nil
-  nil
-  '((indent-tabs-mode))
-  '((mark-ring (1))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/console.rb"
-  "console.rb"
-  'ruby-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
-  126
-  '(1 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (126 126 126 126))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/sql_runner.rb"
-  "sql_runner.rb"
-  'ruby-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
-  32
-  '(107 nil)
-  nil
-  nil
-  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (74 1 107 107))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/films.rb"
-  "films.rb"
-  'ruby-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
-  266
-  '(272 nil)
-  nil
-  nil
-  '((indent-tabs-mode))
-  '((mark-ring (268 1 75))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/code_clan_cinema.sql"
-  "code_clan_cinema.sql"
-  'sql-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  216
-  '(32 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (1 122 216))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/personal.org"
-  "personal.org"
-  'org-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((truncate-lines . t))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/business.org"
-  "business.org"
-  'org-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((truncate-lines . t))
-  '((mark-ring nil)))
-

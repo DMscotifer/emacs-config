@@ -147,11 +147,35 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(elfeed-feeds
+   (quote
+    ("http://feeds.reuters.com/reuters/topNews?irpc=69" "http://www.independent.co.uk/rss" "http://www.telegraph.co.uk/newsfeed/rss/news-uk_news.xml" "http://www.scotsman.com/rss/cmlink/1.65694" "http://www.linuxjournal.com/node/feed" "http://www.engadget.com/rss-full.xml" "http://www.drdobbs.com/rss/all" "http://feeds.gawker.com/lifehacker/vip" "http://stallman.org/rss/rss.xml" "http://feeds.feedburner.com/entrepreneur/latest" "http://feeds.feedburner.com/codinghorror/" "http://news.com.com/2547-1_3-0-5.xml" "http://www.linuxinsider.com/perl/syndication/rssfull.pl" "http://news.ycombinator.com/rss" "http://feeds.arstechnica.com/arstechnica/index/" "https://www.youtube.com/feeds/videos.xml?channel_id=UCbrXRQHV4TOU4Pqzw325Z1A" "http://www.joelonsoftware.com/rss.xml" "http://www.hackaday.com/rss.xml" "http://www.theverge.com/rss/full.xml" "http://feeds.feedburner.com/johnpilger" "https://firstlook.org/theintercept/feed/" "http://www.morningstaronline.co.uk/index.php/news/rss/feed/latest" "http://www.newstatesman.com/feeds/online-contents.rss" "~/.emacs.d/feeds.opml")))
+ '(elfeed-search-date-format (quote ("%d-%m-%YT%T" 10 :left)))
+ '(elfeed-search-title-max-width 120)
+ '(erc-autojoin-mode t)
+ '(erc-button-mode t)
+ '(erc-fill-column 120)
+ '(erc-fill-mode t)
+ '(erc-irccontrols-mode t)
+ '(erc-list-mode t)
+ '(erc-match-mode t)
+ '(erc-menu-mode t)
+ '(erc-move-to-prompt-mode t)
+ '(erc-netsplit-mode t)
+ '(erc-networks-mode t)
+ '(erc-nick "caracalla")
+ '(erc-noncommands-mode t)
+ '(erc-pcomplete-mode t)
+ '(erc-readonly-mode t)
+ '(erc-ring-mode t)
+ '(erc-stamp-mode t)
+ '(erc-track-minor-mode t)
+ '(erc-track-mode t)
  '(menu-bar-mode nil)
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-selected-packages
    (quote
-    (org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
+    (enh-ruby-mode free-keys emmet-mode org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -357,3 +381,26 @@
     (global-set-key (kbd "C-s-<right>") 'enlarge-window-horizontally)
     (global-set-key (kbd "C-s-<down>") 'shrink-window)
     (global-set-key (kbd "C-s-<up>") 'enlarge-window)
+
+;; ==================== Emmet ==================== ;;
+
+(require 'emmet-mode)
+
+   (add-to-list 'load-path "~/.emacs.d/emmet/")
+   (require 'emmet-mode)
+   (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+   (add-hook 'html-mode-hook 'emmet-mode)
+   (add-hook 'css-mode-hook  'emmet-mode)
+   (global-set-key (kbd "C-!") 'emmet-expand-line)
+
+
+;; ==================== Readline ==================== ;;
+
+(defun read-lines (filePath) "Return a list of lines of a file at filePath." (with-temp-buffer (insert-file-contents filePath) (split-string (buffer-string) "\n" t)))
+
+;; ==================== ERC ==================== ;;
+
+(let ((acc (read-lines "~/.my-erc-account")))
+  (setq erc-nick (car acc))  
+  (setq erc-password (nth 1 acc)))
+
