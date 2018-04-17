@@ -1,0 +1,139 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Apr 17 11:04:47 2018
+;; Desktop file format version 208
+;; Emacs version 25.3.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23253 50879 206298 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "9A7F-DD21-0A7A-4D78") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 83) (width . 273) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 21) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1913) (pixel-height . 1148) (total-width . 273) (total-height . 82) (normal-height . 1.0) (normal-width . 1.0) (buffer "personal.org" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins nil) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 15) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("column" "password" "login" "erc" "column" "ruby" "keys" "free" "emmet" "elfeed" "week" "month" "day" "week" "time" "date"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/erebus/.my-erc-account" "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/views/index.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/db/pizza_shop.sql" "/Users/erebus/.emacs.d/feeds.opml" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/models/game.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/welcome.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/public/style.css" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/welcome.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/result.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/game.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/specs/game_spec.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/game.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/rock.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/tdd.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/result.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/public/style.css" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/models/rock_paper_scissors.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/models/rock_paper_scissors.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/app.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/public/style.css" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/result.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/public/style.css" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/app.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/result.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/models/calculator.rb" "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/app.rb" "/Users/erebus/org/notes.org" "/Users/erebus/org/personal.org" "/Users/erebus/org/business.org" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/Documents/code_clan_work/wk_04/d1/sinatra_intro/app.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/films.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/tickets.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/customers.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/sql_runner.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/code_clan_cinema.sql" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/console.rb" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/console.rb" "/Users/erebus/org/notes.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/erebus/org/personal.org"
+  "personal.org"
+  'org-mode
+  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
+  15
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/org/business.org"
+  "business.org"
+  'org-mode
+  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(projectile-mode auto-complete-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
+  13508
+  '(22 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (14110 14362 14332 14051 14442 14364 14443 14443))))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/views/index.erb"
+  "index.erb"
+  'ruby-mode
+  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
+  172
+  '(56 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (182 127 182))))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/pizza_controller.rb"
+  "pizza_controller.rb"
+  'ruby-mode
+  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
+  168
+  '(258 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (79 256 152))))
+
+(desktop-create-buffer 208
+  nil
+  "start"
+  'dired-mode
+  '(projectile-mode yas-minor-mode persistent-scratch-autosave-mode)
+  371
+  '(nil nil)
+  t
+  '("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/db/seeds.rb"
+  "seeds.rb"
+  'ruby-mode
+  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
+  252
+  '(361 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/views/layout.erb"
+  "layout.erb"
+  'html-mode
+  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode emmet-mode)
+  59
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/models/pizza_order.rb"
+  "pizza_order.rb"
+  'ruby-mode
+  '(projectile-mode auto-complete-mode yas-minor-mode inf-ruby-minor-mode smartparens-mode persistent-scratch-autosave-mode robe-mode)
+  38
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/erebus/org/notes.org"
+  "notes.org"
+  'org-mode
+  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
+  31105
+  '(31105 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
+  '((mark-ring (1298 208 31105))))
+

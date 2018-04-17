@@ -1,0 +1,136 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/" . "db/")
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/" . "start/")
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/" . "views/")
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/" . "views/")
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/" . "rock_paper_scissors/")
+ ("/Users/erebus/Documents/code_clan_work/wk_04/" . "d2/")
+ ("/Users/erebus/.emacs.d/" . "diary/")
+ ("/Users/" . "erebus/")
+ ("/Users/erebus/Documents/Programming/" . "Bash/")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/" . "models/")
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" . "wk_03_homework/")
+ ("/Users/erebus/Documents/code_clan_work/" . "wk_04/")
+ ("/Users/erebus/Documents/" . "code_clan_work/")
+ ("/Users/erebus/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/erebus/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/views/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/"
+ "/Users/erebus/Documents/code_clan_work/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/models/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d2/start/db/"
+ "/Users/erebus/.emacs.d/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/models/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/public/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/specs/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/public/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/models/"
+ "/Users/erebus/org/"
+ "/Users/erebus/Documents/code_clan_work/wk_04/d1/sinatra_intro/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/"
+ "/Users/erebus/Documents/Programming/Bash/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/"
+ "/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".my-erc-account"
+ "index.erb"
+ "seeds.rb"
+ "pizza_shop.sql"
+ "feeds.opml"
+ "layout.erb"
+ "game.rb"
+ "welcome.erb"
+ "style.css"
+ "result.erb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/erebus/org/" (23253 50297 544182 107000) "personal.org" "business.org" "notes.org" "../" "./")
+
+ ("/Users/erebus/" (23253 50396 716031 59000) "osxfuse/" ".smex-items" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" ".newsrc-dribble" "Documents/" ".npm/" "My Games/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" "#*mail*#3395LNh#" "News/" "Public/" ".mplayer/" "Pi/" ".bash_sessions/" "mac" ".gitignore_global" ".elfeed/" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".emacs.baks" ".psql_history" "org/" ".zshrc" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".emacs_backup/" ".zcompdump-erebus’s MacBook Pro-5.4.2" ".wget-hsts" ".my-erc-account" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".zcompdump-erebus’s MacBook Pro-5.0.5" "public_html/" ".DS_Store" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
+
+ ("/Users/erebus/.emacs.d/" (23253 50442 229262 2000) "feeds.opml" "elpa/" ".gitignore" ".#init.el" "backup_files/" "bookmarks" ".emacs.desktop.lock" "init.el" "url/" ".emacs.desktop" "auto-save-list/" ".persistent-scratch" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "plugins/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/public/" (23253 44886 846276 675000) "styles.css" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/" (23253 49477 804539 168000) "views/" "db/" "models/" "pizza_controller.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/views/" (23253 50144 160940 828000) "index.erb" "layout.erb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/db/" (23253 48662 98021 836000) "pizza_shop.sql" "sql_runner.rb" "seeds.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/start/models/" (23170 51417 0 0) "pizza_order.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d2/" (23253 47881 280474 704000) "start/" "../" "./")
+
+ ("/Users/erebus/.elfeed/" (23253 46565 176527 352000) "data/" "index" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/views/" (23253 46544 525578 390000) "result.erb" "welcome.erb" "layout.erb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/" (23253 43236 908946 339000) "views/" ".git/" "public/" "models/" "app.rb" "specs/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/models/" (23253 40876 31985 828000) "game.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/specs/" (23252 51767 901206 520000) "game_spec.rb" "../" "./")
+
+ ("/Users/erebus/Documents/" (23252 61198 181531 482000) ".pulse-cookie" "New_Books/" ".offlineimaprc" ".bash_history" ".hdmi_script.sh" ".steam/" "programming.org" ".cache/" ".python_history" ".Xauthority" ".bash_profile" ".pki/" ".xinitrc.save" ".mono/" ".newsrc-dribble" ".multi_monitor.sh" ".thunderbird/" "mainpass.kdbx" ".emacs~" ".emacs" ".ssh/" ".conkeror.mozdev.org/" ".gnome/" "Money/" "thomas-cole-the-course_of_empire_desolation_18361.jpg" "Programming/" "cole_the_course_of_empire_the_pastoral_or_arcadian_state1330296016635.png" ".gtkrc-2.0" ".xinitrc" "trello.org" "project.projectile/" ".cargo/" ".elfeed/" ".emacs.d/" "the-course-of-empire-the-consummation-of-the-empire-1836.jpg" "code_clan_work/" ".emacs.desktop" ".recently-used" "diana_birthday/" ".defcon/" ".bash_logout" ".icons/" "Simple Website/" ".atom/" "Cole_Thomas_The_Course_of_Empire_The_Savage_State_1836.jpg" ".gksu.lock" ".builds/" ".local/" "Paradox Interactive/" "thomas_cole__the_course_of_empire__destruction__1933-36-13E8B2DB4AD7FC10649.png" ".screenlayout/" "notes.org" ".xinitrc.baks" ".bashrc" ".cabal/" "config/" ".localized" ".mozilla/" ".esd_auth" ".gnupg/" ".DS_Store" ".xmonad/" ".bashrc~" ".kodi/" ".xsession" ".config/" ".uml/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/" (23252 47531 278926 516000) "sinatra_intro/" "rock_paper_scissors/" "calculator/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/views/" (23252 47197 909725 54000) "result.erb" "layout.erb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/" (23252 47094 948576 100000) "views/" "public/" "models/" "app.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/public/" (23252 46754 433157 992000) "style.css" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/calculator/models/" (23252 44149 612010 366000) "calculator.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/d1/sinatra_intro/" (23252 40822 337605 439000) "sinatra_intro.rb" "app.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/" (23252 32097 658396 580000) "console.rb" ".git/" "db/" "models/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/" (23252 40650 152604 541000) "tickets.rb" "bookings.rb" "films.rb" "customers.rb" "screenings.rb" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_04/" (23252 37611 912790 190000) "d2/" "d5/" "d4/" "d3/" "d1/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/" (23252 37594 177045 221000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "PDA/" "wk_02/" "wk_04/" "wk_03/" ".DS_Store" "../" "./")
+
+ ("/Users/erebus/.emacs.d/diary/" (23252 30911 564749 71000) "../" "./")
+
+ ("/Users/erebus/public_html/" (23252 30887 531169 381000) "2018/" "../" "./")
+
+ ("/Users/erebus/public_html/2018/" (23252 30887 567531 302000) "index.html" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/" (23251 31753 528261 402000) "code_clan_cinema.sql" "sql_runner.rb" "../" "./")
+
+ ("/Users/" (23213 44622 935174 12000) "Guest/" "erebus/" "Shared/" ".localized" "../" "./")
+
+ ("/Users/erebus/Documents/Programming/Bash/" (23203 51013 0 0) "#raspberry-build-script.sh#" "new_commands" "test2" "test3" "borg-script" "emacs-diary/" "raspberry-build-script.sh" "test" "settings.json" "../" "./")
+
+ ("/Users/erebus/Documents/Programming/" (23222 61883 682029 862000) "Ruby/" "sampledialog~" "vpnlist~" "dialog-vpn.sh~" "Pi/" "vpnconfig.sh~" "calibre.sh" "Bash/" "dialog-test~" "Python/" ".DS_Store" "produce-vpn-list~" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/" (23248 29736 459380 853000) "wk_03_homework/" "d2/" "d5/" "d4/" "d3/" "d1/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/d4/" (23247 19293 852739 685000) "one_to_many_joins/" "quest_advisor_start.zip" "quest_advisor_start/" "zombies/" "../" "./")
+
+ ("/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/" (23248 28893 349369 724000) "db/" "models/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

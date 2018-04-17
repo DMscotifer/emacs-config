@@ -1,0 +1,10 @@
+*.pyc
+*.*~
+*.egg-info
+.ropeproject/
+doc/build/
+build/
+dist/
+.emacs.desktop.lock
+.diary
+.trello/scotifer92@googlemail.com.el

@@ -1,0 +1,1 @@
+("~/Documents/code_clan_work/wk_04/d1/rock_paper_scissors/" "~/Documents/code_clan_work/wk_03/wk_03_homework/" "~/.emacs.d/")
