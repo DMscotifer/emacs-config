@@ -1,1 +1,1 @@
-("~/Documents/code_clan_work/wk_03/wk_03_homework/" "~/.emacs.d/")
+("~/.emacs.d/" "~/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/" "~/Documents/code_clan_work/wk_04/d2/start/" "~/Documents/code_clan_work/wk_03/wk_03_homework/")

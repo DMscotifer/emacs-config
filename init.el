@@ -175,7 +175,7 @@
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-selected-packages
    (quote
-    (enh-ruby-mode free-keys emmet-mode org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
+    (impatient-mode web-server enh-ruby-mode free-keys emmet-mode org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -404,3 +404,29 @@
   (setq erc-nick (car acc))  
   (setq erc-password (nth 1 acc)))
 
+;; ==================== Global Line Numbers ==================== ;;
+
+(global-nlinum-mode 1)
+
+
+;; ==================== HTML ==================== ;;
+
+(setq load-path (cons "path_to_html-helper-mode_directory" load-path))
+(autoload 'html-helper-mode "html-helper-mode" "Yay HTML" t)
+(setq auto-mode-alist (cons '("\\.html$" . html-helper-mode) auto-mode-alist))
+
+;; Recognize server-parsed HTML files
+(setq auto-mode-alist (cons '("\\.shtml$" . html-helper-mode) auto-mode-alist))
+
+;; Insert new document HTML template
+(setq html-helper-build-new-buffer t)
+
+;; Insert address
+(setq html-helper-address-string 
+  "<a href=\"your_URL\">your_name &lt;your_e-mail_address&gt;</a>")
+
+;; Enable time stamp
+(setq html-helper-do-write-file-hooks t)
+
+;; Enable hyperlink prompt
+(setq tempo-interactive t)
