@@ -2,7 +2,7 @@
 
 This is my personal Emacs configuration, recently re-written for easy modification. I have attempted to break down everything into self-contained blocks that can ('mostly') be removed without causing initialisation errors.
 
-Emacs supports a variety of languages, but I have added hooks for a several languages - particularly around focusing particularly on web development.
+Emacs supports a variety of languages, but I have added hooks for a several languages - focusing particularly on web development.
 
 The style is modelled after atom. It is aesthetically pleasing and works well with tile managers, like xmonad.
 
