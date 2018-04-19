@@ -430,3 +430,29 @@
 
 ;; Enable hyperlink prompt
 (setq tempo-interactive t)
+
+;; ==================== Web Development ==================== ;;
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(setq web-mode-enable-auto-pairing nil)
+
+;; ==================== JSON mode ==================== ;;
+
+(require 'json-mode)
+(add-hook 'json-mode-hook 'hs-minor-mode)
+
+;; ==================== Indentation ==================== ;;
+
+(setq-default c-basic-offset 2)
+(setq-default js-indent-level 2)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+(setq-default web-mode-code-indent-offset 2)

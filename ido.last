@@ -46,13 +46,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/erebus/Documents/code_clan_work/" (23256 21663 617 621000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "test.html" "PDA/" "wk_02/" "wk_04/" "wk_03/" ".DS_Store" "../" "./")
+
+ ("/Users/erebus/" (23256 33150 482579 733000) "osxfuse/" ".smex-items" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" ".newsrc-dribble" "Documents/" ".npm/" "My Games/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" "#*mail*#3395LNh#" "News/" "Public/" ".mplayer/" "Pi/" ".bash_sessions/" "mac" ".gitignore_global" ".elfeed/" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".emacs.baks" ".psql_history" "org/" ".zshrc" "#.emacs.init#" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".emacs_backup/" ".zcompdump-erebus’s MacBook Pro-5.4.2" "mu/" ".wget-hsts" ".my-erc-account" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".offlineimap/" ".zcompdump-erebus’s MacBook Pro-5.0.5" "public_html/" ".DS_Store" ".Mail/" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
+
  ("/Users/erebus/.emacs.d/" (23256 21016 710552 572000) ".git/" "feeds.opml" "elpa/" ".gitignore" "backup_files/" "bookmarks" ".emacs.desktop.lock" "init.el" ".emacs.desktop" "auto-save-list/" ".persistent-scratch" ".hgtags" "projectile-bookmarks.eld" ".hgignore" "plugins/" "ido.last" "snippets/" "ac-comphist.dat" "../" "./")
 
  ("/Users/erebus/public_html/2018/" (23252 30887 567531 302000) "index.html" "../" "./")
-
- ("/Users/erebus/Documents/code_clan_work/" (23256 20970 827145 394000) "g5_classnotes/" "programming.org" "improvements.txt" "wk_01/" "test.html" "PDA/" "wk_02/" "wk_04/" "wk_03/" ".DS_Store" "../" "./")
-
- ("/Users/erebus/" (23256 20970 985312 285000) "osxfuse/" ".smex-items" ".bash_history" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".gem/" ".pry_history" ".newsrc-dribble" "Documents/" ".npm/" "My Games/" ".Trash/" ".zsh-update" "Applications/" "Movies/" ".ssh/" "#*mail*#3395LNh#" "News/" "Public/" ".mplayer/" "Pi/" ".bash_sessions/" "mac" ".gitignore_global" ".elfeed/" ".emacs.d/" "Calibre Library/" "Library/" "Desktop/" ".zsh_history" "laptop.log" ".bundle/" ".atom/" "Pictures/" ".emacs.baks" ".psql_history" "org/" ".zshrc" "#.emacs.init#" ".zshrc.pre-oh-my-zsh" "junit/" ".subversion/" ".rbenv/" ".emacs_backup/" ".zcompdump-erebus’s MacBook Pro-5.4.2" "mu/" ".wget-hsts" ".my-erc-account" ".CFUserTextEncoding" ".zcompdump-erebus’s MacBook Pro-5.3" "VirtualBox VMs/" ".offlineimap/" ".zcompdump-erebus’s MacBook Pro-5.0.5" "public_html/" ".DS_Store" ".Mail/" ".gemrc" ".bin/" "Music/" ".config/" ".build/" "../" "./")
 
  ("/Users/erebus/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/db/" (23255 22675 59744 382000) "hogwarts_db.sql" "sql_runner.rb" "seed.rb" "../" "./")
 
