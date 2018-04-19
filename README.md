@@ -15,3 +15,12 @@ https://github.com/emacs-tw/awesome-emacs
 
 git clone git@github.com:DMscotifer/emacs-config.git ~/.emacs.d
 
+## Packages
+
+### Elfeed
+
+The RSS reader, elfeed, loads ~/.emacs.d/feeds.opml instead of reading it directly off the init.el file (adding new feeds will add it to the init.el and will need to be pruned manually at the moment).
+
+### Save Desktop
+
+emacs.desktop is saved when emacs is closed down. It saves the buffers you have open and the frame order for when you log back in
