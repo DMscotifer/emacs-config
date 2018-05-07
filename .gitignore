@@ -6,5 +6,5 @@ doc/build/
 build/
 dist/
 .emacs.desktop.lock
-.diary
+diary
 .trello/scotifer92@googlemail.com.el
