@@ -1,0 +1,4 @@
+(
+ (:id "sha1:3726b59829ff4990ae201f06752ef93761ec441d" :fingerprint "sha1:a6:69:28:f1:9e:dd:56:ed:ad:85:7f:1d:22:a3:74:61:c9:2d:80:e2" :host "imap-mail.outlook.com:993" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:59ab09421ab13960778884eabca009d1d8b28208" :fingerprint "sha1:eb:1e:b9:cf:1f:0e:3c:60:93:80:21:80:8d:4b:84:98:46:98:bf:74" :host "imap.gmail.com:993" :conditions (:insecure :unknown-ca :invalid))
+)

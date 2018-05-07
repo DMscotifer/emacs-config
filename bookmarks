@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("init.el"
+(("Harry_Potter_Gorup_Lab"
+ (filename . "~/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "84 20 Apr 21:47 ")
+ (position . 298))
+("adventure_roleplaying_webapp"
+ (filename . "~/Documents/code_clan_work/adventure_roleplaying_webapp/")
+ (front-context-string . ".git\n  -rw-r--r-")
+ (rear-context-string . "84 20 Apr 21:42 ")
+ (position . 282))
+("init.el"
  (filename . "~/.emacs.d/init.el")
  (front-context-string)
  (rear-context-string . "o-interactive t)")

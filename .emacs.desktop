@@ -2,78 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Apr 19 12:51:44 2018
+;; Created Mon May  7 09:21:21 2018
 ;; Desktop file format version 208
 ;; Emacs version 25.3.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23256 33488 311831 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (frameset--id . "9A7F-DD21-0A7A-4D78") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "erebuss-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 83) (width . 136) (left . 960) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 28) (min-pixel-width-ignore . 35) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 954) (pixel-height . 1148) (total-width . 136) (total-height . 82) (normal-height . 1.0) (normal-width . 1.0) (buffer "*ansi-term*" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins 2) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1331) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (23280 3201 168222 0) (desktop . "208") "erebus@erebuss-MacBook-Pro.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Menlo-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (line-spacing) (left-fringe . 1) (right-fringe . 1) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (environment) (display . "erebuss-MacBook-Pro.local") (visibility . t) (frameset--id . "A120-98DD-253D-51AA") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (explicit-name) (tool-bar-position . top) (height . 83) (width . 273) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 56) (min-pixel-width . 70) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 56) (min-pixel-height-safe . 14) (min-pixel-width-safe . 14)) leaf (pixel-width . 1913) (pixel-height . 1148) (total-width . 273) (total-height . 82) (normal-height . 1.0) (normal-width . 1.0) (buffer "*elfeed-search*" (selected . t) (hscroll . 0) (fringes 1 1 nil) (margins 5) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("web-mode" "html" "webi" "web" "impatient" "display" "email" "mu4e" "email" "mu" "emmet" "pomo"))
+(setq search-ring '("shift" "intellij" "w3" "w3sd" "w3" "w" "w3" "w3m" "web" "org" "pdf" "sumatra" "pdf" "pdf-tool" "epub" "mail"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("/Users/erebus/Documents/code_clan_work/test.html" "/Users/erebus/public_html/2018/index.html" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/Documents/code_clan_work/test.html" "/Users/erebus/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/views/index.erb" "/Users/erebus/org/personal.org" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/.offlineimaprc" "/Users/erebus/Pi/Library/metadata.db" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/org/notes.org" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/films.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/tickets.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/models/customers.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/sql_runner.rb" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/db/code_clan_cinema.sql" "/Users/erebus/Documents/code_clan_work/wk_03/wk_03_homework/console.rb" "/Users/erebus/.emacs.d/init.el" "/Users/erebus/Documents/code_clan_work/wk_03/wk_02_homework/console.rb" "/Users/erebus/org/notes.org"))
+(setq file-name-history '("/Users/erebus/Documents/code_clan_work/wk_06/homework.org" "/Users/erebus/Documents/code_clan_work/wk_06/d1/java_notes.org" "/Users/erebus/Documents/code_clan_work/wk_06/d4/employee_lab.org" "/Users/erebus/Documents/code_clan_work/wk_06/d1/java_notes.org" "/Users/erebus/org/code-clan.org" "/Users/erebus/org/personal.org" "/Users/erebus/Documents/code_clan_work/wk_06/d1/java_notes.org" "/Users/erebus/org/business.org" "/Users/erebus/org/code-clan.org" "/Users/erebus/Documents/code_clan_work/wk_06/d1/java_notes.org" "/Users/erebus/org/code-clan.org" "/Users/erebus/org/personal.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/seed.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/seed.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/models/player.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/seed.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/sql_runner.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/sql_runner.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp2/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/player.rb" "/Users/erebus/Documents/code_clan_work/wk_05/pyplay/Cake.py" "/Users/erebus/public_html/2018/2018-04.html" "/Users/erebus/Downloads/artificialintelligencewithpython.mobi" "/Users/erebus/Downloads/androidsecurityinternals.pdf" "/Users/erebus/Downloads/pythondatascienceessentials.pdf" "/Users/erebus/Downloads/pythonguiprogrammingcookbook.epub" "/Users/erebus/Downloads/pythoncrashcourse.epub" "/Users/erebus/org/code-clan-project.org" "/Users/erebus/Documents/Programming/Bash/raspberry-build-script.sh" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/org/code-clan-project.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/org/code-clan.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/org/code-clan-project.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/layout.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/org/code-clan.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/item.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/item.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/spec/monster_spec.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/adventure.sql" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/monster.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/item.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/db/seeds.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/spec/item_spec.rb" "/Users/erebus/Documents/code_clan_work/wk_04/many_to_many_sinatra_zombies/models/biting.rb" "/Users/erebus/org/code-clan-project.org" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/style.css" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/layout.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/index.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/monsters/show.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/monsters/index.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/views/index.erb" "~/Documents/code_clan_work/adventure_roleplaying_webapp/views/layout.erb" "/Users/erebus/Documents/code_clan_work/wk_04/d3/hogwarts/Harry_Potter_Gorup_Lab/views/new.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/views/index.erb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/app.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/controllers/inventory_controller.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/controllers/player_controller.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/controllers/monster_controller.rb" "/Users/erebus/Documents/code_clan_work/wk_04/many_to_many_sinatra_zombies/controllers/victims_controller.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/app.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/spec/monster_spec.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/models/monster.rb" "/Users/erebus/Documents/code_clan_work/adventure_roleplaying_webapp/spec/player_spec.rb" "/Users/erebus/org/code-clan-project.org" "/Users/erebus/.gnus" "/Users/erebus/.authinfo" "/Users/erebus/.gnus" "/Users/erebus/.authinfo" "/Users/erebus/.gnus" "/Users/erebus/.authinfo" "/Users/erebus/.gnus" "/Users/erebus/.authinfo"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/Users/erebus/.emacs.d/init.el"
-  "init.el"
-  'emacs-lisp-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  16228
-  '(16055 nil)
   nil
-  nil
-  '((buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (15930 15328 14587 15871 15871 15871 16228))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/Documents/code_clan_work/test.html"
-  "test.html"
-  'web-mode
-  '(projectile-mode auto-complete-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
+  "*elfeed-search*"
+  'elfeed-search-mode
+  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode text-scale-mode)
   1
-  '(nil nil)
-  nil
-  nil
-  nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/personal.org"
-  "personal.org"
-  'org-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  375
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/notes.org"
-  "notes.org"
-  'org-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  33464
-  '(34348 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t))
-  '((mark-ring (34133 33590 35394 33491 33501 33701 33635 33637 33943 34054 34284 34153 34270 34272 34640 35323))))
-
-(desktop-create-buffer 208
-  "/Users/erebus/org/business.org"
-  "business.org"
-  'org-mode
-  '(projectile-mode yas-minor-mode smartparens-mode persistent-scratch-autosave-mode)
-  1
-  '(1 nil)
-  nil
-  nil
+  '(13261 nil)
+  t
+  "@6-months-ago +unread"
   '((truncate-lines . t))
-  '((mark-ring (1))))
+  '((mark-ring (11641 1))))
 

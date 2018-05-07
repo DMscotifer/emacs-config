@@ -172,10 +172,18 @@
  '(erc-track-minor-mode t)
  '(erc-track-mode t)
  '(menu-bar-mode nil)
+ '(org-agenda-files (quote ("~/org")))
+ '(org-fontify-done-headline t)
+ '(org-fontify-quote-and-verse-blocks t)
+ '(org-fontify-whole-heading-line t)
+ '(org-from-is-user-regexp "\\<erebus\\>")
+ '(org-hide-leading-stars t)
+ '(org-log-done t)
+ '(org-support-shift-select (quote always))
  '(org-trello-current-prefix-keybinding "C-c o")
  '(package-selected-packages
    (quote
-    (impatient-mode web-server enh-ruby-mode free-keys emmet-mode org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
+    (helm-w3m org-pdfview nov pdf-tools google-this impatient-mode web-server enh-ruby-mode free-keys emmet-mode org-pomodoro robe nlinum highlight-symbol smartparens python-mode ipython-shell-send python doom-themes elfeed org-trello org-bullets discover-my-major discover inf-ruby rvm anaconda-mode elpy vimish-fold helm-dash auto-complete grizzl multiple-cursors helm-swoop smex ido-completing-read+ helm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -370,10 +378,8 @@
 
 (require 'org)
 (setq org-log-done t)
+(setq org-agenda-files (list "~/org"))
 
-(setq org-agenda-files (list "~/org/personal.org"
-                             "~/org/business.org" 
-                             "~/org/notes.org"))
 
 ;; ==================== Resize Windows ==================== ;;
 
@@ -456,3 +462,8 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
 (setq-default web-mode-code-indent-offset 2)
+
+;; ==================== EPUB reader ==================== ;;
+
+(add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
+
